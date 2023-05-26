@@ -27,6 +27,7 @@ void setPWM_off(uint32_t i2c_periph, uint8_t i2c_addr) {//turn off LED
 
 void i2c_addr_init(void) {
     uint8_t i;
+    uint8_t c = 1;
 #if    E1
     //E1 RGB LED I2C address init
     //poll I2C0,Horizontal
@@ -185,8 +186,9 @@ int main(void) {
     systick_config();//system tick configuration
     int b = 0;
     uint8_t a[3] = {48, 49, 50};
+    int cc[3] = {1, 2, 2};
     while (1) {
-        USART_Send_String(a);
+        USART_Send_String(cc);
         i2c_read(key_addr.periph, key_addr.addr, KEYKS0, keyvalue, 6);//get key status
         key_control(key_trans());//take action
         delay_1ms(100);
