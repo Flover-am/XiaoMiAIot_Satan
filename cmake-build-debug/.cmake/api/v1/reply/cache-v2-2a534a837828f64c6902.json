@@ -11,7 +11,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/Xiaomi/CLion_Test/cmake-build-debug"
+			"value" : "D:/Xiaomi/XiaoMiAIot_Satan/cmake-build-debug"
 		},
 		{
 			"name" : "CLion_Test_IS_TOP_LEVEL",
@@ -35,7 +35,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/Xiaomi/CLion_Test"
+			"value" : "D:/Xiaomi/XiaoMiAIot_Satan"
 		},
 		{
 			"name" : "CMAKE_ADDR2LINE",
@@ -199,7 +199,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "d:/Xiaomi/CLion_Test/cmake-build-debug"
+			"value" : "d:/Xiaomi/XiaoMiAIot_Satan/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -295,10 +295,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "CXX compiler"
 				}
 			],
-			"type" : "UNINITIALIZED",
+			"type" : "STRING",
 			"value" : "D:/evr/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++.exe"
 		},
 		{
@@ -423,10 +423,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "C compiler"
 				}
 			],
-			"type" : "UNINITIALIZED",
+			"type" : "STRING",
 			"value" : "D:/evr/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe"
 		},
 		{
@@ -687,7 +687,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/Xiaomi/CLion_Test/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "D:/Xiaomi/XiaoMiAIot_Satan/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -747,7 +747,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/Xiaomi/CLion_Test"
+			"value" : "D:/Xiaomi/XiaoMiAIot_Satan"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",

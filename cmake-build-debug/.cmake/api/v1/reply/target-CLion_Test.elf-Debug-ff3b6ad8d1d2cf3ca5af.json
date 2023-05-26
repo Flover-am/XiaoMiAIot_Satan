@@ -158,27 +158,27 @@
 			[
 				{
 					"backtrace" : 10,
-					"path" : "D:/Xiaomi/CLion_Test/Core/Inc"
+					"path" : "D:/Xiaomi/XiaoMiAIot_Satan/Core/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "D:/Xiaomi/CLion_Test/Drivers/CMSIS"
+					"path" : "D:/Xiaomi/XiaoMiAIot_Satan/Drivers/CMSIS"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "D:/Xiaomi/CLion_Test/MyLib/LED"
+					"path" : "D:/Xiaomi/XiaoMiAIot_Satan/MyLib/LED"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "D:/Xiaomi/CLion_Test/MyLib/delay"
+					"path" : "D:/Xiaomi/XiaoMiAIot_Satan/MyLib/delay"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "D:/Xiaomi/CLion_Test/MyLib/USART"
+					"path" : "D:/Xiaomi/XiaoMiAIot_Satan/MyLib/USART"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "D:/Xiaomi/CLion_Test/UserApp"
+					"path" : "D:/Xiaomi/XiaoMiAIot_Satan/UserApp"
 				}
 			],
 			"language" : "C",
@@ -297,27 +297,27 @@
 			[
 				{
 					"backtrace" : 10,
-					"path" : "D:/Xiaomi/CLion_Test/Core/Inc"
+					"path" : "D:/Xiaomi/XiaoMiAIot_Satan/Core/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "D:/Xiaomi/CLion_Test/Drivers/CMSIS"
+					"path" : "D:/Xiaomi/XiaoMiAIot_Satan/Drivers/CMSIS"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "D:/Xiaomi/CLion_Test/MyLib/LED"
+					"path" : "D:/Xiaomi/XiaoMiAIot_Satan/MyLib/LED"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "D:/Xiaomi/CLion_Test/MyLib/delay"
+					"path" : "D:/Xiaomi/XiaoMiAIot_Satan/MyLib/delay"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "D:/Xiaomi/CLion_Test/MyLib/USART"
+					"path" : "D:/Xiaomi/XiaoMiAIot_Satan/MyLib/USART"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "D:/Xiaomi/CLion_Test/UserApp"
+					"path" : "D:/Xiaomi/XiaoMiAIot_Satan/UserApp"
 				}
 			],
 			"language" : "ASM",
@@ -342,7 +342,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=D:/Xiaomi/CLion_Test/cmake-build-debug/CLion_Test.map",
+				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=D:/Xiaomi/XiaoMiAIot_Satan/cmake-build-debug/CLion_Test.map",
 				"role" : "flags"
 			},
 			{
@@ -372,7 +372,7 @@
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "D:/Xiaomi/CLion_Test/gd32f450z_flash.ld",
+				"fragment" : "D:/Xiaomi/XiaoMiAIot_Satan/gd32f450z_flash.ld",
 				"role" : "flags"
 			}
 		],

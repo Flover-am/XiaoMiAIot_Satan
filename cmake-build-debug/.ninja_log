@@ -10,7 +10,6 @@
 20	396	7067803231366574	CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_dac.c.obj	3c3b521619381ad0
 377	641	7067803234115229	CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_fwdgt.c.obj	1e3e4bcdb86e7ffa
 72	520	7067803232854965	CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_dma.c.obj	fa3b00ae65619f53
-1295	1495	7067803242672485	CMakeFiles/CLion_Test.elf.dir/UserApp/systick.c.obj	d6433a41a370ab7e
 396	767	7067803235233802	CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_fmc.c.obj	533352bf862cd8cf
 84	535	7067803233037599	CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_exmc.c.obj	a0629127bef66d4
 412	670	7067803234393556	CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_exti.c.obj	26bc0d7ec4c42a69
@@ -34,8 +33,5 @@
 201	530	7067814181727210	CLion_Test.elf	e4e45686e49c3fcc
 1085	1326	7067803240956043	CMakeFiles/CLion_Test.elf.dir/MyLib/LED/led.c.obj	a6dd6a30d4315219
 1045	1435	7067803242051054	CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_usart.c.obj	7c1c354ca60f3824
-2	200	7067814179627507	CMakeFiles/CLion_Test.elf.dir/UserApp/main.c.obj	b6c414908d36f44f
-1326	1516	7067803242892520	CMakeFiles/CLion_Test.elf.dir/UserApp/gd32f4xx_it.c.obj	fcf6b031efcc64a4
 1176	1424	7067803241939195	CMakeFiles/CLion_Test.elf.dir/MyLib/delay/delay.c.obj	fe70201a1bc1d374
-1134	1452	7067803242243125	CMakeFiles/CLion_Test.elf.dir/UserApp/i2c.c.obj	26681ab4c9bd55d9
 1008	1294	7067803240652342	CMakeFiles/CLion_Test.elf.dir/MyLib/USART/usart.c.obj	94d2f0fc6417ab09
