@@ -14,8 +14,7 @@
     \param[out] none
     \retval     none
 */
-void i2c0_gpio_config(void)
-{
+void i2c0_gpio_config(void) {
     rcu_periph_clock_enable(RCU_GPIOB);
 
     /* connect PB8 to I2C0_SCL */
@@ -23,10 +22,10 @@ void i2c0_gpio_config(void)
     /* connect PB9 to I2C0_SDA */
     gpio_af_set(GPIOB, GPIO_AF_4, GPIO_PIN_9);
 
-    gpio_mode_set(GPIOB, GPIO_MODE_AF, GPIO_PUPD_PULLUP,GPIO_PIN_8);
-    gpio_output_options_set(GPIOB, GPIO_OTYPE_OD, GPIO_OSPEED_50MHZ,GPIO_PIN_8);
-    gpio_mode_set(GPIOB, GPIO_MODE_AF, GPIO_PUPD_PULLUP,GPIO_PIN_9);
-    gpio_output_options_set(GPIOB, GPIO_OTYPE_OD, GPIO_OSPEED_50MHZ,GPIO_PIN_9);
+    gpio_mode_set(GPIOB, GPIO_MODE_AF, GPIO_PUPD_PULLUP, GPIO_PIN_8);
+    gpio_output_options_set(GPIOB, GPIO_OTYPE_OD, GPIO_OSPEED_50MHZ, GPIO_PIN_8);
+    gpio_mode_set(GPIOB, GPIO_MODE_AF, GPIO_PUPD_PULLUP, GPIO_PIN_9);
+    gpio_output_options_set(GPIOB, GPIO_OTYPE_OD, GPIO_OSPEED_50MHZ, GPIO_PIN_9);
 }
 
 /*!
@@ -35,18 +34,17 @@ void i2c0_gpio_config(void)
     \param[out] none
     \retval     none
 */
-void i2c0_config(void)
-{
+void i2c0_config(void) {
     /* enable I2C clock */
     rcu_periph_clock_enable(RCU_I2C0);
     /* configure I2C clock */
-    i2c_clock_config(I2C0,I2C0_SPEED,I2C_DTCY_2);
+    i2c_clock_config(I2C0, I2C0_SPEED, I2C_DTCY_2);
     /* configure I2C address */
-    i2c_mode_addr_config(I2C0,I2C_I2CMODE_ENABLE,I2C_ADDFORMAT_7BITS,I2C0_SLAVE_ADDRESS7);
+    i2c_mode_addr_config(I2C0, I2C_I2CMODE_ENABLE, I2C_ADDFORMAT_7BITS, I2C0_SLAVE_ADDRESS7);
     /* enable I2C0 */
     i2c_enable(I2C0);
     /* enable acknowledge */
-    i2c_ack_config(I2C0,I2C_ACK_ENABLE);
+    i2c_ack_config(I2C0, I2C_ACK_ENABLE);
 }
 
 /*!
@@ -55,8 +53,7 @@ void i2c0_config(void)
     \param[out] none
     \retval     none
 */
-void i2c1_gpio_config(void)
-{
+void i2c1_gpio_config(void) {
     rcu_periph_clock_enable(RCU_GPIOF);
 
     /* connect PF1 to I2C1_SCL */
@@ -64,10 +61,10 @@ void i2c1_gpio_config(void)
     /* connect PF0 to I2C1_SDA */
     gpio_af_set(GPIOF, GPIO_AF_4, GPIO_PIN_0);
 
-    gpio_mode_set(GPIOF, GPIO_MODE_AF, GPIO_PUPD_PULLUP,GPIO_PIN_0);
-    gpio_output_options_set(GPIOD, GPIO_OTYPE_OD, GPIO_OSPEED_50MHZ,GPIO_PIN_0);
-    gpio_mode_set(GPIOF, GPIO_MODE_AF, GPIO_PUPD_PULLUP,GPIO_PIN_1);
-    gpio_output_options_set(GPIOF, GPIO_OTYPE_OD, GPIO_OSPEED_50MHZ,GPIO_PIN_1);
+    gpio_mode_set(GPIOF, GPIO_MODE_AF, GPIO_PUPD_PULLUP, GPIO_PIN_0);
+    gpio_output_options_set(GPIOD, GPIO_OTYPE_OD, GPIO_OSPEED_50MHZ, GPIO_PIN_0);
+    gpio_mode_set(GPIOF, GPIO_MODE_AF, GPIO_PUPD_PULLUP, GPIO_PIN_1);
+    gpio_output_options_set(GPIOF, GPIO_OTYPE_OD, GPIO_OSPEED_50MHZ, GPIO_PIN_1);
 }
 
 /*!
@@ -76,18 +73,17 @@ void i2c1_gpio_config(void)
     \param[out] none
     \retval     none
 */
-void i2c1_config(void)
-{
+void i2c1_config(void) {
     /* enable I2C clock */
     rcu_periph_clock_enable(RCU_I2C1);
     /* configure I2C clock */
-    i2c_clock_config(I2C1,I2C1_SPEED,I2C_DTCY_2);
+    i2c_clock_config(I2C1, I2C1_SPEED, I2C_DTCY_2);
     /* configure I2C address */
-    i2c_mode_addr_config(I2C1,I2C_I2CMODE_ENABLE,I2C_ADDFORMAT_7BITS,I2C1_SLAVE_ADDRESS7);
+    i2c_mode_addr_config(I2C1, I2C_I2CMODE_ENABLE, I2C_ADDFORMAT_7BITS, I2C1_SLAVE_ADDRESS7);
     /* enable I2C1 */
     i2c_enable(I2C1);
     /* enable acknowledge */
-    i2c_ack_config(I2C1,I2C_ACK_ENABLE);
+    i2c_ack_config(I2C1, I2C_ACK_ENABLE);
 }
 
 /*!
@@ -97,37 +93,31 @@ void i2c1_config(void)
     \param[out] result: poll result
     \retval     none
 */
-uint8_t i2c_addr_poll(uint32_t i2c_periph,uint8_t poll_addr)
-{
+uint8_t i2c_addr_poll(uint32_t i2c_periph, uint8_t poll_addr) {
     uint16_t i = 0;
     uint8_t result;
     /* wait until I2C bus is idle */
-    while(i2c_flag_get(i2c_periph, I2C_FLAG_I2CBSY));
+    while (i2c_flag_get(i2c_periph, I2C_FLAG_I2CBSY));
 
     /* send a start condition to I2C bus */
     i2c_start_on_bus(i2c_periph);
 
     /* wait until SBSEND bit is set */
-    while(!i2c_flag_get(i2c_periph, I2C_FLAG_SBSEND));
+    while (!i2c_flag_get(i2c_periph, I2C_FLAG_SBSEND));
 
     /* send slave address to I2C bus */
     i2c_master_addressing(i2c_periph, poll_addr, I2C_TRANSMITTER);
     /* wait until ADDSEND bit is set */
-    while(!i2c_flag_get(i2c_periph, I2C_FLAG_ADDSEND))
-    {
-        i++ ;
-        if(i > 60000)
-        {
+    while (!i2c_flag_get(i2c_periph, I2C_FLAG_ADDSEND)) {
+        i++;
+        if (i > 60000) {
             break;
         }
     }
 
-    if(i > 60000)
-    {
+    if (i > 60000) {
         result = 0;
-    }
-    else
-    {
+    } else {
         result = 1;
     }
 
@@ -135,7 +125,7 @@ uint8_t i2c_addr_poll(uint32_t i2c_periph,uint8_t poll_addr)
     i2c_stop_on_bus(i2c_periph);
 
     /* wait until the stop condition is finished */
-    while(I2C_CTL0(i2c_periph)&0x0200);
+    while (I2C_CTL0(i2c_periph) & 0x0200);
 
     return result;
 }
@@ -146,48 +136,45 @@ uint8_t i2c_addr_poll(uint32_t i2c_periph,uint8_t poll_addr)
     \param[out] none
     \retval     none
 */
-void i2c_cmd_write(uint32_t i2c_periph,uint8_t i2c_addr,uint8_t cmd)
-{
-    uint16_t i=0;
+void i2c_cmd_write(uint32_t i2c_periph, uint8_t i2c_addr, uint8_t cmd) {
+    uint16_t i = 0;
     /* wait until I2C bus is idle */
-    while(i2c_flag_get(i2c_periph, I2C_FLAG_I2CBSY));
+    while (i2c_flag_get(i2c_periph, I2C_FLAG_I2CBSY));
 
     /* send a start condition to I2C bus */
     i2c_start_on_bus(i2c_periph);
 
     /* wait until SBSEND bit is set */
-    while(!i2c_flag_get(i2c_periph, I2C_FLAG_SBSEND));
+    while (!i2c_flag_get(i2c_periph, I2C_FLAG_SBSEND));
 
     /* send slave address to I2C bus */
     i2c_master_addressing(i2c_periph, i2c_addr, I2C_TRANSMITTER);
     /* wait until ADDSEND bit is set */
-    while(!i2c_flag_get(i2c_periph, I2C_FLAG_ADDSEND))
-    {
-        i++ ;
-        if(i > 60000)
-        {
+    while (!i2c_flag_get(i2c_periph, I2C_FLAG_ADDSEND)) {
+        i++;
+        if (i > 60000) {
             /* send a stop condition to I2C bus */
             i2c_stop_on_bus(i2c_periph);
             return;
         }
     }
     /* clear the ADDSEND bit */
-    i2c_flag_clear(i2c_periph,I2C_FLAG_ADDSEND);
+    i2c_flag_clear(i2c_periph, I2C_FLAG_ADDSEND);
 
     /* wait until the transmit data buffer is empty */
-    while(SET != i2c_flag_get(i2c_periph, I2C_FLAG_TBE));
+    while (SET != i2c_flag_get(i2c_periph, I2C_FLAG_TBE));
 
     /* send the cmd to I2C bus */
     i2c_data_transmit(i2c_periph, cmd);
 
     /* wait until BTC bit is set */
-    while(!i2c_flag_get(i2c_periph, I2C_FLAG_BTC));
+    while (!i2c_flag_get(i2c_periph, I2C_FLAG_BTC));
 
     /* send a stop condition to I2C bus */
     i2c_stop_on_bus(i2c_periph);
 
     /* wait until the stop condition is finished */
-    while(I2C_CTL0(i2c_periph)&0x0200);
+    while (I2C_CTL0(i2c_periph) & 0x0200);
 }
 
 /*!
@@ -197,27 +184,29 @@ void i2c_cmd_write(uint32_t i2c_periph,uint8_t i2c_addr,uint8_t cmd)
     \param[out] none
     \retval     none
 */
-void i2c_byte_write(uint32_t i2c_periph,uint8_t i2c_addr,uint8_t write_address,uint8_t buffer)
-{
-    uint16_t i=0;
+void i2c_byte_write(uint32_t i2c_periph, uint8_t i2c_addr, uint8_t write_address, uint8_t buffer) {
+    uint16_t i = 0;
     /* wait until I2C bus is idle */
-    while(i2c_flag_get(i2c_periph, I2C_FLAG_I2CBSY));
+    // 等待直到I2C空闲
+    while (i2c_flag_get(i2c_periph, I2C_FLAG_I2CBSY));
 
     /* send a start condition to I2C bus */
+    // 在一条I2C线路上发送开始信号
     i2c_start_on_bus(i2c_periph);
 
     /* wait until SBSEND bit is set */
-    while(!i2c_flag_get(i2c_periph, I2C_FLAG_SBSEND));
+    // 检测开始信号是否发送成功
+    while (!i2c_flag_get(i2c_periph, I2C_FLAG_SBSEND));
 
     /* send slave address to I2C bus */
+    //发送地址+写 位
     i2c_master_addressing(i2c_periph, i2c_addr, I2C_TRANSMITTER);
 
     /* wait until ADDSEND bit is set */
-    while(!i2c_flag_get(i2c_periph, I2C_FLAG_ADDSEND))
-    {
-        i++ ;
-        if(i > 60000)
-        {
+    // 等待应答位
+    while (!i2c_flag_get(i2c_periph, I2C_FLAG_ADDSEND)) {
+        i++;
+        if (i > 60000) {
             /* send a stop condition to I2C bus */
             i2c_stop_on_bus(i2c_periph);
             return;
@@ -225,28 +214,36 @@ void i2c_byte_write(uint32_t i2c_periph,uint8_t i2c_addr,uint8_t write_address,u
     }
 
     /* clear the ADDSEND bit */
-    i2c_flag_clear(i2c_periph,I2C_FLAG_ADDSEND);
+    // 地址发完，清除地址已发送标志位
+    i2c_flag_clear(i2c_periph, I2C_FLAG_ADDSEND);
 
     /* wait until the transmit data buffer is empty */
-    while(SET != i2c_flag_get(i2c_periph, I2C_FLAG_TBE));
+    // 等待自己的数据缓冲区空闲
+    while (SET != i2c_flag_get(i2c_periph, I2C_FLAG_TBE));
 
     /* send the EEPROM's internal address to write to : only one byte address */
+    // 发送从机寄存器地址
     i2c_data_transmit(i2c_periph, write_address);
 
     /* wait until BTC bit is set */
-    while(!i2c_flag_get(i2c_periph, I2C_FLAG_BTC));
+    // 等待自己发送完成
+    while (!i2c_flag_get(i2c_periph, I2C_FLAG_BTC));
 
     /* send the byte to be written */
+    // 发送数据
     i2c_data_transmit(i2c_periph, buffer);
 
     /* wait until BTC bit is set */
-    while(!i2c_flag_get(i2c_periph, I2C_FLAG_BTC));
+    // 等待自己发送完成
+    while (!i2c_flag_get(i2c_periph, I2C_FLAG_BTC));
 
     /* send a stop condition to I2C bus */
+    // 发送结束位
     i2c_stop_on_bus(i2c_periph);
 
     /* wait until the stop condition is finished */
-    while(I2C_CTL0(i2c_periph)&0x0200);
+    // 等待结束位发完
+    while (I2C_CTL0(i2c_periph) & 0x0200);
 }
 
 /*!
@@ -257,27 +254,24 @@ void i2c_byte_write(uint32_t i2c_periph,uint8_t i2c_addr,uint8_t write_address,u
     \param[out] none
     \retval     none
 */
-void i2c_write(uint32_t i2c_periph,uint8_t i2c_addr,uint8_t write_address,uint8_t* p_buffer,  uint8_t number_of_byte)
-{
-    uint16_t i=0;
+void i2c_write(uint32_t i2c_periph, uint8_t i2c_addr, uint8_t write_address, uint8_t *p_buffer, uint8_t number_of_byte) {
+    uint16_t i = 0;
     /* wait until I2C bus is idle */
-    while(i2c_flag_get(i2c_periph, I2C_FLAG_I2CBSY));
+    while (i2c_flag_get(i2c_periph, I2C_FLAG_I2CBSY));
 
     /* send a start condition to I2C bus */
     i2c_start_on_bus(i2c_periph);
 
     /* wait until SBSEND bit is set */
-    while(!i2c_flag_get(i2c_periph, I2C_FLAG_SBSEND));
+    while (!i2c_flag_get(i2c_periph, I2C_FLAG_SBSEND));
 
     /* send slave address to I2C bus */
     i2c_master_addressing(i2c_periph, i2c_addr, I2C_TRANSMITTER);
 
     /* wait until ADDSEND bit is set */
-    while(!i2c_flag_get(i2c_periph, I2C_FLAG_ADDSEND))
-    {
-        i++ ;
-        if(i > 60000)
-        {
+    while (!i2c_flag_get(i2c_periph, I2C_FLAG_ADDSEND)) {
+        i++;
+        if (i > 60000) {
             /* send a stop condition to I2C bus */
             i2c_stop_on_bus(i2c_periph);
             return;
@@ -285,34 +279,33 @@ void i2c_write(uint32_t i2c_periph,uint8_t i2c_addr,uint8_t write_address,uint8_
     }
 
     /* clear the ADDSEND bit */
-    i2c_flag_clear(i2c_periph,I2C_FLAG_ADDSEND);
+    i2c_flag_clear(i2c_periph, I2C_FLAG_ADDSEND);
 
     /* wait until the transmit data buffer is empty */
-    while( SET != i2c_flag_get(i2c_periph, I2C_FLAG_TBE));
+    while (SET != i2c_flag_get(i2c_periph, I2C_FLAG_TBE));
 
     /* send the EEPROM's internal address to write to : only one byte address */
     i2c_data_transmit(i2c_periph, write_address);
 
     /* wait until BTC bit is set */
-    while(!i2c_flag_get(i2c_periph, I2C_FLAG_BTC));
+    while (!i2c_flag_get(i2c_periph, I2C_FLAG_BTC));
 
     /* while there is data to be written */
-    while(number_of_byte--){
+    while (number_of_byte--) {
         i2c_data_transmit(i2c_periph, *p_buffer);
 
         /* point to the next byte to be written */
         p_buffer++;
 
         /* wait until BTC bit is set */
-        while(!i2c_flag_get(i2c_periph, I2C_FLAG_BTC));
+        while (!i2c_flag_get(i2c_periph, I2C_FLAG_BTC));
     }
     /* send a stop condition to I2C bus */
     i2c_stop_on_bus(i2c_periph);
 
     /* wait until the stop condition is finished */
-    while(I2C_CTL0(i2c_periph)&0x0200);
+    while (I2C_CTL0(i2c_periph) & 0x0200);
 }
-
 
 /*!
     \brief      read data from the slave
@@ -322,32 +315,29 @@ void i2c_write(uint32_t i2c_periph,uint8_t i2c_addr,uint8_t write_address,uint8_
     \param[out] none
     \retval     none
 */
-uint8_t i2c_read(uint32_t i2c_periph,uint8_t i2c_addr,uint8_t read_address,uint8_t* p_buffer,  uint16_t number_of_byte)
-{
+uint8_t i2c_read(uint32_t i2c_periph, uint8_t i2c_addr, uint8_t read_address, uint8_t *p_buffer, uint16_t number_of_byte) {
     uint8_t rt = 1;
-    uint16_t i=0;
+    uint16_t i = 0;
     /* wait until I2C bus is idle */
-    while(i2c_flag_get(i2c_periph, I2C_FLAG_I2CBSY));
+    while (i2c_flag_get(i2c_periph, I2C_FLAG_I2CBSY));
 
-    if(2 == number_of_byte){
-        i2c_ackpos_config(i2c_periph,I2C_ACKPOS_NEXT);
+    if (2 == number_of_byte) {
+        i2c_ackpos_config(i2c_periph, I2C_ACKPOS_NEXT);
     }
 
     /* send a start condition to I2C bus */
     i2c_start_on_bus(i2c_periph);
 
     /* wait until SBSEND bit is set */
-    while(!i2c_flag_get(i2c_periph, I2C_FLAG_SBSEND));
+    while (!i2c_flag_get(i2c_periph, I2C_FLAG_SBSEND));
 
     /* send slave address to I2C bus */
     i2c_master_addressing(i2c_periph, i2c_addr, I2C_TRANSMITTER);
 
     /* wait until ADDSEND bit is set */
-    while(!i2c_flag_get(i2c_periph, I2C_FLAG_ADDSEND))
-    {
-        i++ ;
-        if(i > 60000)
-        {
+    while (!i2c_flag_get(i2c_periph, I2C_FLAG_ADDSEND)) {
+        i++;
+        if (i > 60000) {
             /* send a stop condition to I2C bus */
             i2c_stop_on_bus(i2c_periph);
             rt = 0;
@@ -356,10 +346,10 @@ uint8_t i2c_read(uint32_t i2c_periph,uint8_t i2c_addr,uint8_t read_address,uint8
     }
 
     /* clear the ADDSEND bit */
-    i2c_flag_clear(i2c_periph,I2C_FLAG_ADDSEND);
+    i2c_flag_clear(i2c_periph, I2C_FLAG_ADDSEND);
 
     /* wait until the transmit data buffer is empty */
-    while(SET != i2c_flag_get( i2c_periph , I2C_FLAG_TBE ));
+    while (SET != i2c_flag_get(i2c_periph, I2C_FLAG_TBE));
 
     /* enable i2c_periph*/
     i2c_enable(i2c_periph);
@@ -368,52 +358,52 @@ uint8_t i2c_read(uint32_t i2c_periph,uint8_t i2c_addr,uint8_t read_address,uint8
     i2c_data_transmit(i2c_periph, read_address);
 
     /* wait until BTC bit is set */
-    while(!i2c_flag_get(i2c_periph, I2C_FLAG_BTC));
+    while (!i2c_flag_get(i2c_periph, I2C_FLAG_BTC));
 
     /* send a start condition to I2C bus */
     i2c_start_on_bus(i2c_periph);
 
     /* wait until SBSEND bit is set */
-    while(!i2c_flag_get(i2c_periph, I2C_FLAG_SBSEND));
+    while (!i2c_flag_get(i2c_periph, I2C_FLAG_SBSEND));
 
     /* send slave address to I2C bus */
     i2c_master_addressing(i2c_periph, i2c_addr, I2C_RECEIVER);
 
-    if(number_of_byte < 3){
+    if (number_of_byte < 3) {
         /* disable acknowledge */
-        i2c_ack_config(i2c_periph,I2C_ACK_DISABLE);
+        i2c_ack_config(i2c_periph, I2C_ACK_DISABLE);
     }
 
     /* wait until ADDSEND bit is set */
-    while(!i2c_flag_get(i2c_periph, I2C_FLAG_ADDSEND));
+    while (!i2c_flag_get(i2c_periph, I2C_FLAG_ADDSEND));
 
     /* clear the ADDSEND bit */
-    i2c_flag_clear(i2c_periph,I2C_FLAG_ADDSEND);
+    i2c_flag_clear(i2c_periph, I2C_FLAG_ADDSEND);
 
-    if(1 == number_of_byte){
+    if (1 == number_of_byte) {
         /* send a stop condition to I2C bus */
         i2c_stop_on_bus(i2c_periph);
     }
 
     /* while there is data to be read */
-    while(number_of_byte){
-        if(3 == number_of_byte){
+    while (number_of_byte) {
+        if (3 == number_of_byte) {
             /* wait until BTC bit is set */
-            while(!i2c_flag_get(i2c_periph, I2C_FLAG_BTC));
+            while (!i2c_flag_get(i2c_periph, I2C_FLAG_BTC));
 
             /* disable acknowledge */
-            i2c_ack_config(i2c_periph,I2C_ACK_DISABLE);
+            i2c_ack_config(i2c_periph, I2C_ACK_DISABLE);
         }
-        if(2 == number_of_byte){
+        if (2 == number_of_byte) {
             /* wait until BTC bit is set */
-            while(!i2c_flag_get(i2c_periph, I2C_FLAG_BTC));
+            while (!i2c_flag_get(i2c_periph, I2C_FLAG_BTC));
 
             /* send a stop condition to I2C bus */
             i2c_stop_on_bus(i2c_periph);
         }
 
         /* wait until the RBNE bit is set and clear it */
-        if(i2c_flag_get(i2c_periph, I2C_FLAG_RBNE)){
+        if (i2c_flag_get(i2c_periph, I2C_FLAG_RBNE)) {
             /* read a byte from the EEPROM */
             *p_buffer = i2c_data_receive(i2c_periph);
 
@@ -426,14 +416,19 @@ uint8_t i2c_read(uint32_t i2c_periph,uint8_t i2c_addr,uint8_t read_address,uint8
     }
 
     /* wait until the stop condition is finished */
-    while(I2C_CTL0(i2c_periph)&0x0200);
+    while (I2C_CTL0(i2c_periph) & 0x0200);
 
     /* enable acknowledge */
-    i2c_ack_config(i2c_periph,I2C_ACK_ENABLE);
+    i2c_ack_config(i2c_periph, I2C_ACK_ENABLE);
 
-    i2c_ackpos_config(i2c_periph,I2C_ACKPOS_CURRENT);
+    i2c_ackpos_config(i2c_periph, I2C_ACKPOS_CURRENT);
     return rt;
 }
 
-
-
+//器件地址信息如上图所示。 在使用 S6 子板时，先确认拔码开关的状态，确定器件地址例如图 8 拔码开关状态全为off 时，器件地址为 0x58,按通信协议格式。
+// 发送
+// |地址|值（hex）|
+// |0x58|0xAA|
+// 返回
+// |数据高字节|数据第字节|
+// |0x00|0x32|

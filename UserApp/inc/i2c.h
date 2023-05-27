@@ -30,7 +30,7 @@ void i2c1_gpio_config(void);
 void i2c1_config(void);
 
 uint8_t i2c_addr_poll(uint32_t i2c_periph,uint8_t poll_addr);
-void i2c_cmd_write(uint32_t i2c_periph,uint8_t cmd,uint8_t addr);
+void i2c_cmd_write(uint32_t i2c_periph, uint8_t i2c_addr, uint8_t cmd);
 void i2c_byte_write(uint32_t i2c_periph,uint8_t i2c_addr,uint8_t write_address,uint8_t buffer);
 void i2c_write(uint32_t i2c_periph,uint8_t i2c_addr,uint8_t write_address,uint8_t* p_buffer,  uint8_t number_of_byte);
 uint8_t i2c_read(uint32_t i2c_periph,uint8_t i2c_addr,uint8_t read_address,uint8_t* p_buffer,  uint16_t number_of_byte);
