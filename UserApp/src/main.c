@@ -1,12 +1,12 @@
-#include <stdbool.h>
 #include "gd32f4xx.h"
 #include "delay.h"
 #include "led.h"
-#include "usart.h"
 #include "inc/main.h"
 #include "inc/i2c.h"
 #include "inc/systick.h"
 #include "inc/tools.h"
+#include "inc/displayE1.h"
+#include "inc/distanceS6.h"
 
 i2c_addr_def key_addr;//Key address struct
 i2c_addr_def LED_addr;//LED address struct
@@ -126,57 +126,7 @@ void i2c_addr_init(void) {
 #endif
 }
 
-void USensor_i2c_init(void) {
-    uint8_t i = 0;
-    for (i = 0; i < 4; i++) {
-        if (i2c_addr_poll(I2C0, DIS_SENSOR_S6 + i * 2)) {
-            dis_sensor_addr.periph = I2C0;
-            dis_sensor_addr.addr = DIS_SENSOR_S6 + i * 2;
-            dis_sensor_addr.flag = 1;
-            break;
-        }
-    }
-    //address not read
-    if (dis_sensor_addr.flag != 1) {
-        //poll I2C1,Verti1
-        for (i = 0; i < 4; i++) {
-            if (i2c_addr_poll(I2C1, DIS_SENSOR_S6 + i * 2)) {
-                dis_sensor_addr.periph = I2C1;
-                dis_sensor_addr.addr = DIS_SENSOR_S6 + i * 2;
-                dis_sensor_addr.flag = 1;
-                break;
-            }
-        }
-    }
 
-}
-
-void Display_i2c_init(void) {
-    int i = 0;
-    for (i = 0; i < 4; i++) {
-        if (i2c_addr_poll(I2C0, HT1633_ADDRESS_E1 + i * 2)) {
-            display_addr.periph = I2C0;
-            display_addr.addr = HT1633_ADDRESS_E1 + i * 2;
-            display_addr.flag = 1;
-            break;
-        }
-    }
-    //address not read
-    if (display_addr.flag != 1) {
-        //poll I2C1,Verti1
-        for (i = 0; i < 4; i++) {
-            if (i2c_addr_poll(I2C1, HT1633_ADDRESS_E1 + i * 2)) {
-                display_addr.periph = I2C1;
-                display_addr.addr = HT1633_ADDRESS_E1 + i * 2;
-                display_addr.flag = 1;
-                break;
-            }
-        }
-    }
-    if (display_addr.flag) {
-        i2c_cmd_write(display_addr.periph, display_addr.addr, 0x21);
-    }
-}
 
 void led_control(uint8_t color) {//Control over target LED
     switch (color) {
@@ -231,146 +181,7 @@ int key_trans(void) {//Translation from Array to Key number
     return 0;
 }
 
-int get_dis(void) {
-    int dis = 0;
-    i2c_byte_write(dis_sensor_addr.periph, dis_sensor_addr.addr, 0, 0xAA);
-    uint8_t dis_array[2] = {0};
-    i2c_read(dis_sensor_addr.periph, dis_sensor_addr.addr, 1, dis_array, 2);
-    if (dis_array[0] == 0 && dis_array[1] == 1) {
-        dis = -1;
-    } else {
-        dis = dis_array[0] * 256 + dis_array[1];
-    }
-    return dis;
-}
 
-void enable_display(void) {
-    i2c_cmd_write(display_addr.periph, display_addr.addr, 0x81);
-}
-
-void disable_display(void) {
-    i2c_cmd_write(display_addr.periph, display_addr.addr, 0x80);
-}
-
-void display_byte(int which_place, int num) {
-    uint8_t mem_1 = 0;
-    uint8_t mem_2 = 0;
-
-    switch (which_place) {
-        case 1:
-            mem_1 = 0x02;
-            break;
-        case 2:
-            mem_1 = 0x04;
-            break;
-        case 3:
-            mem_1 = 0x06;
-            break;
-        case 4:
-            mem_1 = 0x08;
-            break;
-    }
-    mem_2 = mem_1 + 1;
-    switch (num) {
-        case 0://ABCDEF
-            i2c_byte_write(display_addr.periph, display_addr.addr, mem_1, binary2int("11111000"));
-            i2c_byte_write(display_addr.periph, display_addr.addr, mem_2, binary2int("00000001"));
-            break;
-        case 1:// BC
-            i2c_byte_write(display_addr.periph, display_addr.addr, mem_1, binary2int("00110000"));
-            i2c_byte_write(display_addr.periph, display_addr.addr, mem_2, binary2int("00000000"));
-            break;
-        case 2:// ABDEG
-            i2c_byte_write(display_addr.periph, display_addr.addr, mem_1, binary2int("11011000"));
-            i2c_byte_write(display_addr.periph, display_addr.addr, mem_2, binary2int("00000010"));
-            break;
-        case 3:// ABCD G
-            i2c_byte_write(display_addr.periph, display_addr.addr, mem_1, binary2int("01111000"));
-            i2c_byte_write(display_addr.periph, display_addr.addr, mem_2, binary2int("00000010"));
-            break;
-        case 4: // BC FG
-            i2c_byte_write(display_addr.periph, display_addr.addr, mem_1, binary2int("00110000"));
-            i2c_byte_write(display_addr.periph, display_addr.addr, mem_2, binary2int("00000011"));
-            break;
-        case 5:// ACD FG
-            i2c_byte_write(display_addr.periph, display_addr.addr, mem_1, binary2int("01101000"));
-            i2c_byte_write(display_addr.periph, display_addr.addr, mem_2, binary2int("00000011"));
-            break;
-        case 6: // ACDE FG
-            i2c_byte_write(display_addr.periph, display_addr.addr, mem_1, binary2int("11101000"));
-            i2c_byte_write(display_addr.periph, display_addr.addr, mem_2, binary2int("00000011"));
-            break;
-        case 7: // ABC
-            i2c_byte_write(display_addr.periph, display_addr.addr, mem_1, binary2int("00111000"));
-            i2c_byte_write(display_addr.periph, display_addr.addr, mem_2, binary2int("00000000"));
-            break;
-        case 8: // ABCDE FG
-
-            i2c_byte_write(display_addr.periph, display_addr.addr, mem_1, binary2int("11111000"));
-            i2c_byte_write(display_addr.periph, display_addr.addr, mem_2, binary2int("00000011"));
-            break;
-        case 9:// ABCD FG
-            i2c_byte_write(display_addr.periph, display_addr.addr, mem_1, binary2int("01111000"));
-            i2c_byte_write(display_addr.periph, display_addr.addr, mem_2, binary2int("00000011"));
-            break;
-
-    }
-}
-
-void clear_display_byte(int which_place) {
-    uint8_t mem_1 = 0;
-    uint8_t mem_2 = 0;
-    switch (which_place) {
-        case 1:
-            mem_1 = 0x02;
-            break;
-        case 2:
-            mem_1 = 0x04;
-            break;
-        case 3:
-            mem_1 = 0x06;
-            break;
-        case 4:
-            mem_1 = 0x08;
-            break;
-    }
-    mem_2 = mem_1 + 1;
-    i2c_byte_write(display_addr.periph, display_addr.addr, mem_1, binary2int("00000000"));
-    i2c_byte_write(display_addr.periph, display_addr.addr, mem_2, binary2int("00000000"));
-}
-
-void display_num(int num) {
-    // num = 123
-    if (num < 0 || num > 9999) {
-        return;
-    }
-    uint8_t str[4];
-    bool flag = true;
-    int z_digit = -1;
-    // str = {0,1,2,3}
-    for (int i = 0; i < 4; ++i) {
-        str[i] = get_digit(num, 3 - i);
-        if (str[i] == 0 && flag) {
-            z_digit++;
-        } else {
-            flag = false;
-        }
-    }
-
-
-    for (int i = 0; i < 4; ++i) {
-        if (i <= z_digit) {
-            clear_display_byte(i + 1);
-
-        } else {
-            display_byte(i + 1, str[i]);
-        }
-
-    }
-    if (display_addr.periph == 1) {
-        printf("1");
-    }
-}
 
 int main(void) {
     /* configure I2C GPIO */
@@ -382,7 +193,7 @@ int main(void) {
     /* configure I2C */
     i2c1_config();
     i2c_addr_init();//initializing i2c address of key and LED
-    USensor_i2c_init();
+    distanceS6_addr_init();
 
     systick_config();//system tick configuration
     int b = 0;
@@ -404,18 +215,4 @@ int main(void) {
         delay_1ms(10);
 //        display_test();
     }
-}
-
-void display_test() {
-
-    i2c_byte_write(display_addr.periph, display_addr.addr, 0x04, binary2int("00000000"));
-    i2c_byte_write(display_addr.periph, display_addr.addr, 0x05, binary2int("00000000"));
-
-    i2c_cmd_write(display_addr.periph, display_addr.addr, 0x81);
-
-    delay_1ms(3000);
-
-    delay_1ms(3000);
-
-    //    i2c_cmd_write(display_addr.periph, display_addr.addr, 0x80);
 }
