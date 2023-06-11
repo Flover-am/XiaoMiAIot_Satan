@@ -39,22 +39,12 @@ void curtain_E3_i2c_init() {
 }
 
 void open_curtain() {
-    i2c_byte_write(curtain_addr.periph, curtain_addr.addr, 0, 0);
+    i2c_byte_write(curtain_addr.periph, curtain_addr.addr, 0x03, 0);
     delay_1ms(200);
 }
 
 void close_curtain() {
-    i2c_byte_write(curtain_addr.periph, curtain_addr.addr, 0, 0);
+    i2c_byte_write(curtain_addr.periph, curtain_addr.addr, 0x03, 99);
     delay_1ms(200);
 }
 
-void curtain_test(int i) {
-    enable_display();
-    for (int j = 0; j < 0xFF; ++j) {
-        for (int k = 0; k < 0xFF; ++k) {
-            i2c_byte_write(curtain_addr.periph, curtain_addr.addr, j, k);
-        }
-        delay_1ms(100);
-        display_int(j);
-    }
-}

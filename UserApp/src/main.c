@@ -43,7 +43,7 @@ int main(void) {
     int time = 0;
     bool is_open = true; // 初始状态开着的
     while (1) {
-        int key = get_key();
+         int key = get_key();
         if (key == 1 && !is_open) {
             is_open = true;
             open_curtain();
