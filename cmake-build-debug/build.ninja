@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = D$:/Xiaomi/XiaoMiAIot_Satan/cmake-build-debug/
+cmake_ninja_workdir = D$:/Xiaomi/NJU_Satan_Task3_2/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target CLion_Test.elf
 
@@ -49,317 +49,475 @@ cmake_ninja_workdir = D$:/Xiaomi/XiaoMiAIot_Satan/cmake-build-debug/
 
 build cmake_object_order_depends_target_CLion_Test.elf: phony || CMakeFiles/CLion_Test.elf.dir
 
-build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_adc.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/XiaoMiAIot_Satan/Core/Src/gd32f4xx_adc.c || cmake_object_order_depends_target_CLion_Test.elf
+build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_adc.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/NJU_Satan_Task3_2/Core/Src/gd32f4xx_adc.c || cmake_object_order_depends_target_CLion_Test.elf
   DEFINES = -DGD32F450 -DUSE_STDPERIPH_DRIVER
   DEP_FILE = CMakeFiles\CLion_Test.elf.dir\Core\Src\gd32f4xx_adc.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=soft -mcpu=cortex-m4 -mthumb -mthumb-interwork -specs=nosys.specs -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -ID:/Xiaomi/XiaoMiAIot_Satan/Core/Inc -ID:/Xiaomi/XiaoMiAIot_Satan/Drivers/CMSIS -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/LED -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/delay -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/USART -ID:/Xiaomi/XiaoMiAIot_Satan/UserApp
+  INCLUDES = -ID:/Xiaomi/NJU_Satan_Task3_2/Core/Inc -ID:/Xiaomi/NJU_Satan_Task3_2/Drivers/CMSIS -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/LED -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/delay -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/USART -ID:/Xiaomi/NJU_Satan_Task3_2/UserApp
   OBJECT_DIR = CMakeFiles\CLion_Test.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\CLion_Test.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\CLion_Test.elf.dir\
+  TARGET_PDB = CLion_Test.elf.pdb
 
-build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_can.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/XiaoMiAIot_Satan/Core/Src/gd32f4xx_can.c || cmake_object_order_depends_target_CLion_Test.elf
+build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_can.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/NJU_Satan_Task3_2/Core/Src/gd32f4xx_can.c || cmake_object_order_depends_target_CLion_Test.elf
   DEFINES = -DGD32F450 -DUSE_STDPERIPH_DRIVER
   DEP_FILE = CMakeFiles\CLion_Test.elf.dir\Core\Src\gd32f4xx_can.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=soft -mcpu=cortex-m4 -mthumb -mthumb-interwork -specs=nosys.specs -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -ID:/Xiaomi/XiaoMiAIot_Satan/Core/Inc -ID:/Xiaomi/XiaoMiAIot_Satan/Drivers/CMSIS -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/LED -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/delay -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/USART -ID:/Xiaomi/XiaoMiAIot_Satan/UserApp
+  INCLUDES = -ID:/Xiaomi/NJU_Satan_Task3_2/Core/Inc -ID:/Xiaomi/NJU_Satan_Task3_2/Drivers/CMSIS -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/LED -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/delay -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/USART -ID:/Xiaomi/NJU_Satan_Task3_2/UserApp
   OBJECT_DIR = CMakeFiles\CLion_Test.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\CLion_Test.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\CLion_Test.elf.dir\
+  TARGET_PDB = CLion_Test.elf.pdb
 
-build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_crc.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/XiaoMiAIot_Satan/Core/Src/gd32f4xx_crc.c || cmake_object_order_depends_target_CLion_Test.elf
+build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_crc.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/NJU_Satan_Task3_2/Core/Src/gd32f4xx_crc.c || cmake_object_order_depends_target_CLion_Test.elf
   DEFINES = -DGD32F450 -DUSE_STDPERIPH_DRIVER
   DEP_FILE = CMakeFiles\CLion_Test.elf.dir\Core\Src\gd32f4xx_crc.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=soft -mcpu=cortex-m4 -mthumb -mthumb-interwork -specs=nosys.specs -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -ID:/Xiaomi/XiaoMiAIot_Satan/Core/Inc -ID:/Xiaomi/XiaoMiAIot_Satan/Drivers/CMSIS -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/LED -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/delay -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/USART -ID:/Xiaomi/XiaoMiAIot_Satan/UserApp
+  INCLUDES = -ID:/Xiaomi/NJU_Satan_Task3_2/Core/Inc -ID:/Xiaomi/NJU_Satan_Task3_2/Drivers/CMSIS -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/LED -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/delay -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/USART -ID:/Xiaomi/NJU_Satan_Task3_2/UserApp
   OBJECT_DIR = CMakeFiles\CLion_Test.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\CLion_Test.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\CLion_Test.elf.dir\
+  TARGET_PDB = CLion_Test.elf.pdb
 
-build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_ctc.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/XiaoMiAIot_Satan/Core/Src/gd32f4xx_ctc.c || cmake_object_order_depends_target_CLion_Test.elf
+build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_ctc.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/NJU_Satan_Task3_2/Core/Src/gd32f4xx_ctc.c || cmake_object_order_depends_target_CLion_Test.elf
   DEFINES = -DGD32F450 -DUSE_STDPERIPH_DRIVER
   DEP_FILE = CMakeFiles\CLion_Test.elf.dir\Core\Src\gd32f4xx_ctc.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=soft -mcpu=cortex-m4 -mthumb -mthumb-interwork -specs=nosys.specs -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -ID:/Xiaomi/XiaoMiAIot_Satan/Core/Inc -ID:/Xiaomi/XiaoMiAIot_Satan/Drivers/CMSIS -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/LED -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/delay -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/USART -ID:/Xiaomi/XiaoMiAIot_Satan/UserApp
+  INCLUDES = -ID:/Xiaomi/NJU_Satan_Task3_2/Core/Inc -ID:/Xiaomi/NJU_Satan_Task3_2/Drivers/CMSIS -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/LED -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/delay -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/USART -ID:/Xiaomi/NJU_Satan_Task3_2/UserApp
   OBJECT_DIR = CMakeFiles\CLion_Test.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\CLion_Test.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\CLion_Test.elf.dir\
+  TARGET_PDB = CLion_Test.elf.pdb
 
-build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_dac.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/XiaoMiAIot_Satan/Core/Src/gd32f4xx_dac.c || cmake_object_order_depends_target_CLion_Test.elf
+build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_dac.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/NJU_Satan_Task3_2/Core/Src/gd32f4xx_dac.c || cmake_object_order_depends_target_CLion_Test.elf
   DEFINES = -DGD32F450 -DUSE_STDPERIPH_DRIVER
   DEP_FILE = CMakeFiles\CLion_Test.elf.dir\Core\Src\gd32f4xx_dac.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=soft -mcpu=cortex-m4 -mthumb -mthumb-interwork -specs=nosys.specs -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -ID:/Xiaomi/XiaoMiAIot_Satan/Core/Inc -ID:/Xiaomi/XiaoMiAIot_Satan/Drivers/CMSIS -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/LED -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/delay -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/USART -ID:/Xiaomi/XiaoMiAIot_Satan/UserApp
+  INCLUDES = -ID:/Xiaomi/NJU_Satan_Task3_2/Core/Inc -ID:/Xiaomi/NJU_Satan_Task3_2/Drivers/CMSIS -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/LED -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/delay -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/USART -ID:/Xiaomi/NJU_Satan_Task3_2/UserApp
   OBJECT_DIR = CMakeFiles\CLion_Test.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\CLion_Test.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\CLion_Test.elf.dir\
+  TARGET_PDB = CLion_Test.elf.pdb
 
-build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_dbg.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/XiaoMiAIot_Satan/Core/Src/gd32f4xx_dbg.c || cmake_object_order_depends_target_CLion_Test.elf
+build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_dbg.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/NJU_Satan_Task3_2/Core/Src/gd32f4xx_dbg.c || cmake_object_order_depends_target_CLion_Test.elf
   DEFINES = -DGD32F450 -DUSE_STDPERIPH_DRIVER
   DEP_FILE = CMakeFiles\CLion_Test.elf.dir\Core\Src\gd32f4xx_dbg.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=soft -mcpu=cortex-m4 -mthumb -mthumb-interwork -specs=nosys.specs -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -ID:/Xiaomi/XiaoMiAIot_Satan/Core/Inc -ID:/Xiaomi/XiaoMiAIot_Satan/Drivers/CMSIS -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/LED -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/delay -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/USART -ID:/Xiaomi/XiaoMiAIot_Satan/UserApp
+  INCLUDES = -ID:/Xiaomi/NJU_Satan_Task3_2/Core/Inc -ID:/Xiaomi/NJU_Satan_Task3_2/Drivers/CMSIS -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/LED -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/delay -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/USART -ID:/Xiaomi/NJU_Satan_Task3_2/UserApp
   OBJECT_DIR = CMakeFiles\CLion_Test.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\CLion_Test.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\CLion_Test.elf.dir\
+  TARGET_PDB = CLion_Test.elf.pdb
 
-build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_dci.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/XiaoMiAIot_Satan/Core/Src/gd32f4xx_dci.c || cmake_object_order_depends_target_CLion_Test.elf
+build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_dci.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/NJU_Satan_Task3_2/Core/Src/gd32f4xx_dci.c || cmake_object_order_depends_target_CLion_Test.elf
   DEFINES = -DGD32F450 -DUSE_STDPERIPH_DRIVER
   DEP_FILE = CMakeFiles\CLion_Test.elf.dir\Core\Src\gd32f4xx_dci.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=soft -mcpu=cortex-m4 -mthumb -mthumb-interwork -specs=nosys.specs -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -ID:/Xiaomi/XiaoMiAIot_Satan/Core/Inc -ID:/Xiaomi/XiaoMiAIot_Satan/Drivers/CMSIS -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/LED -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/delay -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/USART -ID:/Xiaomi/XiaoMiAIot_Satan/UserApp
+  INCLUDES = -ID:/Xiaomi/NJU_Satan_Task3_2/Core/Inc -ID:/Xiaomi/NJU_Satan_Task3_2/Drivers/CMSIS -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/LED -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/delay -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/USART -ID:/Xiaomi/NJU_Satan_Task3_2/UserApp
   OBJECT_DIR = CMakeFiles\CLion_Test.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\CLion_Test.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\CLion_Test.elf.dir\
+  TARGET_PDB = CLion_Test.elf.pdb
 
-build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_dma.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/XiaoMiAIot_Satan/Core/Src/gd32f4xx_dma.c || cmake_object_order_depends_target_CLion_Test.elf
+build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_dma.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/NJU_Satan_Task3_2/Core/Src/gd32f4xx_dma.c || cmake_object_order_depends_target_CLion_Test.elf
   DEFINES = -DGD32F450 -DUSE_STDPERIPH_DRIVER
   DEP_FILE = CMakeFiles\CLion_Test.elf.dir\Core\Src\gd32f4xx_dma.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=soft -mcpu=cortex-m4 -mthumb -mthumb-interwork -specs=nosys.specs -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -ID:/Xiaomi/XiaoMiAIot_Satan/Core/Inc -ID:/Xiaomi/XiaoMiAIot_Satan/Drivers/CMSIS -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/LED -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/delay -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/USART -ID:/Xiaomi/XiaoMiAIot_Satan/UserApp
+  INCLUDES = -ID:/Xiaomi/NJU_Satan_Task3_2/Core/Inc -ID:/Xiaomi/NJU_Satan_Task3_2/Drivers/CMSIS -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/LED -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/delay -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/USART -ID:/Xiaomi/NJU_Satan_Task3_2/UserApp
   OBJECT_DIR = CMakeFiles\CLion_Test.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\CLion_Test.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\CLion_Test.elf.dir\
+  TARGET_PDB = CLion_Test.elf.pdb
 
-build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_enet.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/XiaoMiAIot_Satan/Core/Src/gd32f4xx_enet.c || cmake_object_order_depends_target_CLion_Test.elf
+build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_enet.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/NJU_Satan_Task3_2/Core/Src/gd32f4xx_enet.c || cmake_object_order_depends_target_CLion_Test.elf
   DEFINES = -DGD32F450 -DUSE_STDPERIPH_DRIVER
   DEP_FILE = CMakeFiles\CLion_Test.elf.dir\Core\Src\gd32f4xx_enet.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=soft -mcpu=cortex-m4 -mthumb -mthumb-interwork -specs=nosys.specs -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -ID:/Xiaomi/XiaoMiAIot_Satan/Core/Inc -ID:/Xiaomi/XiaoMiAIot_Satan/Drivers/CMSIS -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/LED -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/delay -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/USART -ID:/Xiaomi/XiaoMiAIot_Satan/UserApp
+  INCLUDES = -ID:/Xiaomi/NJU_Satan_Task3_2/Core/Inc -ID:/Xiaomi/NJU_Satan_Task3_2/Drivers/CMSIS -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/LED -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/delay -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/USART -ID:/Xiaomi/NJU_Satan_Task3_2/UserApp
   OBJECT_DIR = CMakeFiles\CLion_Test.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\CLion_Test.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\CLion_Test.elf.dir\
+  TARGET_PDB = CLion_Test.elf.pdb
 
-build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_exmc.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/XiaoMiAIot_Satan/Core/Src/gd32f4xx_exmc.c || cmake_object_order_depends_target_CLion_Test.elf
+build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_exmc.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/NJU_Satan_Task3_2/Core/Src/gd32f4xx_exmc.c || cmake_object_order_depends_target_CLion_Test.elf
   DEFINES = -DGD32F450 -DUSE_STDPERIPH_DRIVER
   DEP_FILE = CMakeFiles\CLion_Test.elf.dir\Core\Src\gd32f4xx_exmc.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=soft -mcpu=cortex-m4 -mthumb -mthumb-interwork -specs=nosys.specs -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -ID:/Xiaomi/XiaoMiAIot_Satan/Core/Inc -ID:/Xiaomi/XiaoMiAIot_Satan/Drivers/CMSIS -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/LED -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/delay -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/USART -ID:/Xiaomi/XiaoMiAIot_Satan/UserApp
+  INCLUDES = -ID:/Xiaomi/NJU_Satan_Task3_2/Core/Inc -ID:/Xiaomi/NJU_Satan_Task3_2/Drivers/CMSIS -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/LED -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/delay -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/USART -ID:/Xiaomi/NJU_Satan_Task3_2/UserApp
   OBJECT_DIR = CMakeFiles\CLion_Test.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\CLion_Test.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\CLion_Test.elf.dir\
+  TARGET_PDB = CLion_Test.elf.pdb
 
-build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_exti.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/XiaoMiAIot_Satan/Core/Src/gd32f4xx_exti.c || cmake_object_order_depends_target_CLion_Test.elf
+build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_exti.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/NJU_Satan_Task3_2/Core/Src/gd32f4xx_exti.c || cmake_object_order_depends_target_CLion_Test.elf
   DEFINES = -DGD32F450 -DUSE_STDPERIPH_DRIVER
   DEP_FILE = CMakeFiles\CLion_Test.elf.dir\Core\Src\gd32f4xx_exti.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=soft -mcpu=cortex-m4 -mthumb -mthumb-interwork -specs=nosys.specs -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -ID:/Xiaomi/XiaoMiAIot_Satan/Core/Inc -ID:/Xiaomi/XiaoMiAIot_Satan/Drivers/CMSIS -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/LED -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/delay -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/USART -ID:/Xiaomi/XiaoMiAIot_Satan/UserApp
+  INCLUDES = -ID:/Xiaomi/NJU_Satan_Task3_2/Core/Inc -ID:/Xiaomi/NJU_Satan_Task3_2/Drivers/CMSIS -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/LED -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/delay -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/USART -ID:/Xiaomi/NJU_Satan_Task3_2/UserApp
   OBJECT_DIR = CMakeFiles\CLion_Test.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\CLion_Test.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\CLion_Test.elf.dir\
+  TARGET_PDB = CLion_Test.elf.pdb
 
-build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_fmc.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/XiaoMiAIot_Satan/Core/Src/gd32f4xx_fmc.c || cmake_object_order_depends_target_CLion_Test.elf
+build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_fmc.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/NJU_Satan_Task3_2/Core/Src/gd32f4xx_fmc.c || cmake_object_order_depends_target_CLion_Test.elf
   DEFINES = -DGD32F450 -DUSE_STDPERIPH_DRIVER
   DEP_FILE = CMakeFiles\CLion_Test.elf.dir\Core\Src\gd32f4xx_fmc.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=soft -mcpu=cortex-m4 -mthumb -mthumb-interwork -specs=nosys.specs -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -ID:/Xiaomi/XiaoMiAIot_Satan/Core/Inc -ID:/Xiaomi/XiaoMiAIot_Satan/Drivers/CMSIS -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/LED -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/delay -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/USART -ID:/Xiaomi/XiaoMiAIot_Satan/UserApp
+  INCLUDES = -ID:/Xiaomi/NJU_Satan_Task3_2/Core/Inc -ID:/Xiaomi/NJU_Satan_Task3_2/Drivers/CMSIS -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/LED -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/delay -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/USART -ID:/Xiaomi/NJU_Satan_Task3_2/UserApp
   OBJECT_DIR = CMakeFiles\CLion_Test.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\CLion_Test.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\CLion_Test.elf.dir\
+  TARGET_PDB = CLion_Test.elf.pdb
 
-build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_fwdgt.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/XiaoMiAIot_Satan/Core/Src/gd32f4xx_fwdgt.c || cmake_object_order_depends_target_CLion_Test.elf
+build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_fwdgt.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/NJU_Satan_Task3_2/Core/Src/gd32f4xx_fwdgt.c || cmake_object_order_depends_target_CLion_Test.elf
   DEFINES = -DGD32F450 -DUSE_STDPERIPH_DRIVER
   DEP_FILE = CMakeFiles\CLion_Test.elf.dir\Core\Src\gd32f4xx_fwdgt.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=soft -mcpu=cortex-m4 -mthumb -mthumb-interwork -specs=nosys.specs -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -ID:/Xiaomi/XiaoMiAIot_Satan/Core/Inc -ID:/Xiaomi/XiaoMiAIot_Satan/Drivers/CMSIS -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/LED -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/delay -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/USART -ID:/Xiaomi/XiaoMiAIot_Satan/UserApp
+  INCLUDES = -ID:/Xiaomi/NJU_Satan_Task3_2/Core/Inc -ID:/Xiaomi/NJU_Satan_Task3_2/Drivers/CMSIS -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/LED -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/delay -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/USART -ID:/Xiaomi/NJU_Satan_Task3_2/UserApp
   OBJECT_DIR = CMakeFiles\CLion_Test.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\CLion_Test.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\CLion_Test.elf.dir\
+  TARGET_PDB = CLion_Test.elf.pdb
 
-build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_gpio.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/XiaoMiAIot_Satan/Core/Src/gd32f4xx_gpio.c || cmake_object_order_depends_target_CLion_Test.elf
+build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_gpio.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/NJU_Satan_Task3_2/Core/Src/gd32f4xx_gpio.c || cmake_object_order_depends_target_CLion_Test.elf
   DEFINES = -DGD32F450 -DUSE_STDPERIPH_DRIVER
   DEP_FILE = CMakeFiles\CLion_Test.elf.dir\Core\Src\gd32f4xx_gpio.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=soft -mcpu=cortex-m4 -mthumb -mthumb-interwork -specs=nosys.specs -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -ID:/Xiaomi/XiaoMiAIot_Satan/Core/Inc -ID:/Xiaomi/XiaoMiAIot_Satan/Drivers/CMSIS -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/LED -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/delay -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/USART -ID:/Xiaomi/XiaoMiAIot_Satan/UserApp
+  INCLUDES = -ID:/Xiaomi/NJU_Satan_Task3_2/Core/Inc -ID:/Xiaomi/NJU_Satan_Task3_2/Drivers/CMSIS -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/LED -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/delay -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/USART -ID:/Xiaomi/NJU_Satan_Task3_2/UserApp
   OBJECT_DIR = CMakeFiles\CLion_Test.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\CLion_Test.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\CLion_Test.elf.dir\
+  TARGET_PDB = CLion_Test.elf.pdb
 
-build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_i2c.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/XiaoMiAIot_Satan/Core/Src/gd32f4xx_i2c.c || cmake_object_order_depends_target_CLion_Test.elf
+build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_i2c.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/NJU_Satan_Task3_2/Core/Src/gd32f4xx_i2c.c || cmake_object_order_depends_target_CLion_Test.elf
   DEFINES = -DGD32F450 -DUSE_STDPERIPH_DRIVER
   DEP_FILE = CMakeFiles\CLion_Test.elf.dir\Core\Src\gd32f4xx_i2c.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=soft -mcpu=cortex-m4 -mthumb -mthumb-interwork -specs=nosys.specs -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -ID:/Xiaomi/XiaoMiAIot_Satan/Core/Inc -ID:/Xiaomi/XiaoMiAIot_Satan/Drivers/CMSIS -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/LED -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/delay -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/USART -ID:/Xiaomi/XiaoMiAIot_Satan/UserApp
+  INCLUDES = -ID:/Xiaomi/NJU_Satan_Task3_2/Core/Inc -ID:/Xiaomi/NJU_Satan_Task3_2/Drivers/CMSIS -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/LED -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/delay -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/USART -ID:/Xiaomi/NJU_Satan_Task3_2/UserApp
   OBJECT_DIR = CMakeFiles\CLion_Test.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\CLion_Test.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\CLion_Test.elf.dir\
+  TARGET_PDB = CLion_Test.elf.pdb
 
-build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_ipa.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/XiaoMiAIot_Satan/Core/Src/gd32f4xx_ipa.c || cmake_object_order_depends_target_CLion_Test.elf
+build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_ipa.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/NJU_Satan_Task3_2/Core/Src/gd32f4xx_ipa.c || cmake_object_order_depends_target_CLion_Test.elf
   DEFINES = -DGD32F450 -DUSE_STDPERIPH_DRIVER
   DEP_FILE = CMakeFiles\CLion_Test.elf.dir\Core\Src\gd32f4xx_ipa.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=soft -mcpu=cortex-m4 -mthumb -mthumb-interwork -specs=nosys.specs -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -ID:/Xiaomi/XiaoMiAIot_Satan/Core/Inc -ID:/Xiaomi/XiaoMiAIot_Satan/Drivers/CMSIS -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/LED -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/delay -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/USART -ID:/Xiaomi/XiaoMiAIot_Satan/UserApp
+  INCLUDES = -ID:/Xiaomi/NJU_Satan_Task3_2/Core/Inc -ID:/Xiaomi/NJU_Satan_Task3_2/Drivers/CMSIS -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/LED -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/delay -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/USART -ID:/Xiaomi/NJU_Satan_Task3_2/UserApp
   OBJECT_DIR = CMakeFiles\CLion_Test.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\CLion_Test.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\CLion_Test.elf.dir\
+  TARGET_PDB = CLion_Test.elf.pdb
 
-build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_iref.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/XiaoMiAIot_Satan/Core/Src/gd32f4xx_iref.c || cmake_object_order_depends_target_CLion_Test.elf
+build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_iref.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/NJU_Satan_Task3_2/Core/Src/gd32f4xx_iref.c || cmake_object_order_depends_target_CLion_Test.elf
   DEFINES = -DGD32F450 -DUSE_STDPERIPH_DRIVER
   DEP_FILE = CMakeFiles\CLion_Test.elf.dir\Core\Src\gd32f4xx_iref.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=soft -mcpu=cortex-m4 -mthumb -mthumb-interwork -specs=nosys.specs -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -ID:/Xiaomi/XiaoMiAIot_Satan/Core/Inc -ID:/Xiaomi/XiaoMiAIot_Satan/Drivers/CMSIS -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/LED -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/delay -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/USART -ID:/Xiaomi/XiaoMiAIot_Satan/UserApp
+  INCLUDES = -ID:/Xiaomi/NJU_Satan_Task3_2/Core/Inc -ID:/Xiaomi/NJU_Satan_Task3_2/Drivers/CMSIS -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/LED -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/delay -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/USART -ID:/Xiaomi/NJU_Satan_Task3_2/UserApp
   OBJECT_DIR = CMakeFiles\CLion_Test.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\CLion_Test.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\CLion_Test.elf.dir\
+  TARGET_PDB = CLion_Test.elf.pdb
 
-build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_misc.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/XiaoMiAIot_Satan/Core/Src/gd32f4xx_misc.c || cmake_object_order_depends_target_CLion_Test.elf
+build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_misc.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/NJU_Satan_Task3_2/Core/Src/gd32f4xx_misc.c || cmake_object_order_depends_target_CLion_Test.elf
   DEFINES = -DGD32F450 -DUSE_STDPERIPH_DRIVER
   DEP_FILE = CMakeFiles\CLion_Test.elf.dir\Core\Src\gd32f4xx_misc.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=soft -mcpu=cortex-m4 -mthumb -mthumb-interwork -specs=nosys.specs -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -ID:/Xiaomi/XiaoMiAIot_Satan/Core/Inc -ID:/Xiaomi/XiaoMiAIot_Satan/Drivers/CMSIS -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/LED -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/delay -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/USART -ID:/Xiaomi/XiaoMiAIot_Satan/UserApp
+  INCLUDES = -ID:/Xiaomi/NJU_Satan_Task3_2/Core/Inc -ID:/Xiaomi/NJU_Satan_Task3_2/Drivers/CMSIS -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/LED -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/delay -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/USART -ID:/Xiaomi/NJU_Satan_Task3_2/UserApp
   OBJECT_DIR = CMakeFiles\CLion_Test.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\CLion_Test.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\CLion_Test.elf.dir\
+  TARGET_PDB = CLion_Test.elf.pdb
 
-build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_pmu.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/XiaoMiAIot_Satan/Core/Src/gd32f4xx_pmu.c || cmake_object_order_depends_target_CLion_Test.elf
+build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_pmu.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/NJU_Satan_Task3_2/Core/Src/gd32f4xx_pmu.c || cmake_object_order_depends_target_CLion_Test.elf
   DEFINES = -DGD32F450 -DUSE_STDPERIPH_DRIVER
   DEP_FILE = CMakeFiles\CLion_Test.elf.dir\Core\Src\gd32f4xx_pmu.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=soft -mcpu=cortex-m4 -mthumb -mthumb-interwork -specs=nosys.specs -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -ID:/Xiaomi/XiaoMiAIot_Satan/Core/Inc -ID:/Xiaomi/XiaoMiAIot_Satan/Drivers/CMSIS -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/LED -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/delay -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/USART -ID:/Xiaomi/XiaoMiAIot_Satan/UserApp
+  INCLUDES = -ID:/Xiaomi/NJU_Satan_Task3_2/Core/Inc -ID:/Xiaomi/NJU_Satan_Task3_2/Drivers/CMSIS -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/LED -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/delay -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/USART -ID:/Xiaomi/NJU_Satan_Task3_2/UserApp
   OBJECT_DIR = CMakeFiles\CLion_Test.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\CLion_Test.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\CLion_Test.elf.dir\
+  TARGET_PDB = CLion_Test.elf.pdb
 
-build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_rcu.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/XiaoMiAIot_Satan/Core/Src/gd32f4xx_rcu.c || cmake_object_order_depends_target_CLion_Test.elf
+build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_rcu.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/NJU_Satan_Task3_2/Core/Src/gd32f4xx_rcu.c || cmake_object_order_depends_target_CLion_Test.elf
   DEFINES = -DGD32F450 -DUSE_STDPERIPH_DRIVER
   DEP_FILE = CMakeFiles\CLion_Test.elf.dir\Core\Src\gd32f4xx_rcu.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=soft -mcpu=cortex-m4 -mthumb -mthumb-interwork -specs=nosys.specs -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -ID:/Xiaomi/XiaoMiAIot_Satan/Core/Inc -ID:/Xiaomi/XiaoMiAIot_Satan/Drivers/CMSIS -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/LED -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/delay -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/USART -ID:/Xiaomi/XiaoMiAIot_Satan/UserApp
+  INCLUDES = -ID:/Xiaomi/NJU_Satan_Task3_2/Core/Inc -ID:/Xiaomi/NJU_Satan_Task3_2/Drivers/CMSIS -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/LED -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/delay -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/USART -ID:/Xiaomi/NJU_Satan_Task3_2/UserApp
   OBJECT_DIR = CMakeFiles\CLion_Test.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\CLion_Test.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\CLion_Test.elf.dir\
+  TARGET_PDB = CLion_Test.elf.pdb
 
-build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_rtc.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/XiaoMiAIot_Satan/Core/Src/gd32f4xx_rtc.c || cmake_object_order_depends_target_CLion_Test.elf
+build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_rtc.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/NJU_Satan_Task3_2/Core/Src/gd32f4xx_rtc.c || cmake_object_order_depends_target_CLion_Test.elf
   DEFINES = -DGD32F450 -DUSE_STDPERIPH_DRIVER
   DEP_FILE = CMakeFiles\CLion_Test.elf.dir\Core\Src\gd32f4xx_rtc.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=soft -mcpu=cortex-m4 -mthumb -mthumb-interwork -specs=nosys.specs -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -ID:/Xiaomi/XiaoMiAIot_Satan/Core/Inc -ID:/Xiaomi/XiaoMiAIot_Satan/Drivers/CMSIS -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/LED -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/delay -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/USART -ID:/Xiaomi/XiaoMiAIot_Satan/UserApp
+  INCLUDES = -ID:/Xiaomi/NJU_Satan_Task3_2/Core/Inc -ID:/Xiaomi/NJU_Satan_Task3_2/Drivers/CMSIS -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/LED -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/delay -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/USART -ID:/Xiaomi/NJU_Satan_Task3_2/UserApp
   OBJECT_DIR = CMakeFiles\CLion_Test.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\CLion_Test.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\CLion_Test.elf.dir\
+  TARGET_PDB = CLion_Test.elf.pdb
 
-build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_sdio.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/XiaoMiAIot_Satan/Core/Src/gd32f4xx_sdio.c || cmake_object_order_depends_target_CLion_Test.elf
+build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_sdio.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/NJU_Satan_Task3_2/Core/Src/gd32f4xx_sdio.c || cmake_object_order_depends_target_CLion_Test.elf
   DEFINES = -DGD32F450 -DUSE_STDPERIPH_DRIVER
   DEP_FILE = CMakeFiles\CLion_Test.elf.dir\Core\Src\gd32f4xx_sdio.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=soft -mcpu=cortex-m4 -mthumb -mthumb-interwork -specs=nosys.specs -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -ID:/Xiaomi/XiaoMiAIot_Satan/Core/Inc -ID:/Xiaomi/XiaoMiAIot_Satan/Drivers/CMSIS -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/LED -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/delay -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/USART -ID:/Xiaomi/XiaoMiAIot_Satan/UserApp
+  INCLUDES = -ID:/Xiaomi/NJU_Satan_Task3_2/Core/Inc -ID:/Xiaomi/NJU_Satan_Task3_2/Drivers/CMSIS -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/LED -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/delay -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/USART -ID:/Xiaomi/NJU_Satan_Task3_2/UserApp
   OBJECT_DIR = CMakeFiles\CLion_Test.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\CLion_Test.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\CLion_Test.elf.dir\
+  TARGET_PDB = CLion_Test.elf.pdb
 
-build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_spi.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/XiaoMiAIot_Satan/Core/Src/gd32f4xx_spi.c || cmake_object_order_depends_target_CLion_Test.elf
+build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_spi.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/NJU_Satan_Task3_2/Core/Src/gd32f4xx_spi.c || cmake_object_order_depends_target_CLion_Test.elf
   DEFINES = -DGD32F450 -DUSE_STDPERIPH_DRIVER
   DEP_FILE = CMakeFiles\CLion_Test.elf.dir\Core\Src\gd32f4xx_spi.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=soft -mcpu=cortex-m4 -mthumb -mthumb-interwork -specs=nosys.specs -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -ID:/Xiaomi/XiaoMiAIot_Satan/Core/Inc -ID:/Xiaomi/XiaoMiAIot_Satan/Drivers/CMSIS -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/LED -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/delay -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/USART -ID:/Xiaomi/XiaoMiAIot_Satan/UserApp
+  INCLUDES = -ID:/Xiaomi/NJU_Satan_Task3_2/Core/Inc -ID:/Xiaomi/NJU_Satan_Task3_2/Drivers/CMSIS -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/LED -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/delay -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/USART -ID:/Xiaomi/NJU_Satan_Task3_2/UserApp
   OBJECT_DIR = CMakeFiles\CLion_Test.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\CLion_Test.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\CLion_Test.elf.dir\
+  TARGET_PDB = CLion_Test.elf.pdb
 
-build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_syscfg.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/XiaoMiAIot_Satan/Core/Src/gd32f4xx_syscfg.c || cmake_object_order_depends_target_CLion_Test.elf
+build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_syscfg.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/NJU_Satan_Task3_2/Core/Src/gd32f4xx_syscfg.c || cmake_object_order_depends_target_CLion_Test.elf
   DEFINES = -DGD32F450 -DUSE_STDPERIPH_DRIVER
   DEP_FILE = CMakeFiles\CLion_Test.elf.dir\Core\Src\gd32f4xx_syscfg.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=soft -mcpu=cortex-m4 -mthumb -mthumb-interwork -specs=nosys.specs -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -ID:/Xiaomi/XiaoMiAIot_Satan/Core/Inc -ID:/Xiaomi/XiaoMiAIot_Satan/Drivers/CMSIS -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/LED -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/delay -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/USART -ID:/Xiaomi/XiaoMiAIot_Satan/UserApp
+  INCLUDES = -ID:/Xiaomi/NJU_Satan_Task3_2/Core/Inc -ID:/Xiaomi/NJU_Satan_Task3_2/Drivers/CMSIS -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/LED -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/delay -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/USART -ID:/Xiaomi/NJU_Satan_Task3_2/UserApp
   OBJECT_DIR = CMakeFiles\CLion_Test.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\CLion_Test.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\CLion_Test.elf.dir\
+  TARGET_PDB = CLion_Test.elf.pdb
 
-build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_timer.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/XiaoMiAIot_Satan/Core/Src/gd32f4xx_timer.c || cmake_object_order_depends_target_CLion_Test.elf
+build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_timer.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/NJU_Satan_Task3_2/Core/Src/gd32f4xx_timer.c || cmake_object_order_depends_target_CLion_Test.elf
   DEFINES = -DGD32F450 -DUSE_STDPERIPH_DRIVER
   DEP_FILE = CMakeFiles\CLion_Test.elf.dir\Core\Src\gd32f4xx_timer.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=soft -mcpu=cortex-m4 -mthumb -mthumb-interwork -specs=nosys.specs -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -ID:/Xiaomi/XiaoMiAIot_Satan/Core/Inc -ID:/Xiaomi/XiaoMiAIot_Satan/Drivers/CMSIS -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/LED -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/delay -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/USART -ID:/Xiaomi/XiaoMiAIot_Satan/UserApp
+  INCLUDES = -ID:/Xiaomi/NJU_Satan_Task3_2/Core/Inc -ID:/Xiaomi/NJU_Satan_Task3_2/Drivers/CMSIS -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/LED -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/delay -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/USART -ID:/Xiaomi/NJU_Satan_Task3_2/UserApp
   OBJECT_DIR = CMakeFiles\CLion_Test.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\CLion_Test.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\CLion_Test.elf.dir\
+  TARGET_PDB = CLion_Test.elf.pdb
 
-build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_tli.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/XiaoMiAIot_Satan/Core/Src/gd32f4xx_tli.c || cmake_object_order_depends_target_CLion_Test.elf
+build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_tli.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/NJU_Satan_Task3_2/Core/Src/gd32f4xx_tli.c || cmake_object_order_depends_target_CLion_Test.elf
   DEFINES = -DGD32F450 -DUSE_STDPERIPH_DRIVER
   DEP_FILE = CMakeFiles\CLion_Test.elf.dir\Core\Src\gd32f4xx_tli.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=soft -mcpu=cortex-m4 -mthumb -mthumb-interwork -specs=nosys.specs -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -ID:/Xiaomi/XiaoMiAIot_Satan/Core/Inc -ID:/Xiaomi/XiaoMiAIot_Satan/Drivers/CMSIS -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/LED -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/delay -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/USART -ID:/Xiaomi/XiaoMiAIot_Satan/UserApp
+  INCLUDES = -ID:/Xiaomi/NJU_Satan_Task3_2/Core/Inc -ID:/Xiaomi/NJU_Satan_Task3_2/Drivers/CMSIS -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/LED -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/delay -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/USART -ID:/Xiaomi/NJU_Satan_Task3_2/UserApp
   OBJECT_DIR = CMakeFiles\CLion_Test.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\CLion_Test.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\CLion_Test.elf.dir\
+  TARGET_PDB = CLion_Test.elf.pdb
 
-build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_trng.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/XiaoMiAIot_Satan/Core/Src/gd32f4xx_trng.c || cmake_object_order_depends_target_CLion_Test.elf
+build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_trng.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/NJU_Satan_Task3_2/Core/Src/gd32f4xx_trng.c || cmake_object_order_depends_target_CLion_Test.elf
   DEFINES = -DGD32F450 -DUSE_STDPERIPH_DRIVER
   DEP_FILE = CMakeFiles\CLion_Test.elf.dir\Core\Src\gd32f4xx_trng.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=soft -mcpu=cortex-m4 -mthumb -mthumb-interwork -specs=nosys.specs -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -ID:/Xiaomi/XiaoMiAIot_Satan/Core/Inc -ID:/Xiaomi/XiaoMiAIot_Satan/Drivers/CMSIS -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/LED -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/delay -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/USART -ID:/Xiaomi/XiaoMiAIot_Satan/UserApp
+  INCLUDES = -ID:/Xiaomi/NJU_Satan_Task3_2/Core/Inc -ID:/Xiaomi/NJU_Satan_Task3_2/Drivers/CMSIS -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/LED -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/delay -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/USART -ID:/Xiaomi/NJU_Satan_Task3_2/UserApp
   OBJECT_DIR = CMakeFiles\CLion_Test.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\CLion_Test.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\CLion_Test.elf.dir\
+  TARGET_PDB = CLion_Test.elf.pdb
 
-build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_usart.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/XiaoMiAIot_Satan/Core/Src/gd32f4xx_usart.c || cmake_object_order_depends_target_CLion_Test.elf
+build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_usart.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/NJU_Satan_Task3_2/Core/Src/gd32f4xx_usart.c || cmake_object_order_depends_target_CLion_Test.elf
   DEFINES = -DGD32F450 -DUSE_STDPERIPH_DRIVER
   DEP_FILE = CMakeFiles\CLion_Test.elf.dir\Core\Src\gd32f4xx_usart.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=soft -mcpu=cortex-m4 -mthumb -mthumb-interwork -specs=nosys.specs -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -ID:/Xiaomi/XiaoMiAIot_Satan/Core/Inc -ID:/Xiaomi/XiaoMiAIot_Satan/Drivers/CMSIS -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/LED -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/delay -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/USART -ID:/Xiaomi/XiaoMiAIot_Satan/UserApp
+  INCLUDES = -ID:/Xiaomi/NJU_Satan_Task3_2/Core/Inc -ID:/Xiaomi/NJU_Satan_Task3_2/Drivers/CMSIS -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/LED -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/delay -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/USART -ID:/Xiaomi/NJU_Satan_Task3_2/UserApp
   OBJECT_DIR = CMakeFiles\CLion_Test.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\CLion_Test.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\CLion_Test.elf.dir\
+  TARGET_PDB = CLion_Test.elf.pdb
 
-build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_wwdgt.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/XiaoMiAIot_Satan/Core/Src/gd32f4xx_wwdgt.c || cmake_object_order_depends_target_CLion_Test.elf
+build CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_wwdgt.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/NJU_Satan_Task3_2/Core/Src/gd32f4xx_wwdgt.c || cmake_object_order_depends_target_CLion_Test.elf
   DEFINES = -DGD32F450 -DUSE_STDPERIPH_DRIVER
   DEP_FILE = CMakeFiles\CLion_Test.elf.dir\Core\Src\gd32f4xx_wwdgt.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=soft -mcpu=cortex-m4 -mthumb -mthumb-interwork -specs=nosys.specs -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -ID:/Xiaomi/XiaoMiAIot_Satan/Core/Inc -ID:/Xiaomi/XiaoMiAIot_Satan/Drivers/CMSIS -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/LED -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/delay -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/USART -ID:/Xiaomi/XiaoMiAIot_Satan/UserApp
+  INCLUDES = -ID:/Xiaomi/NJU_Satan_Task3_2/Core/Inc -ID:/Xiaomi/NJU_Satan_Task3_2/Drivers/CMSIS -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/LED -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/delay -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/USART -ID:/Xiaomi/NJU_Satan_Task3_2/UserApp
   OBJECT_DIR = CMakeFiles\CLion_Test.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\CLion_Test.elf.dir\Core\Src
+  TARGET_COMPILE_PDB = CMakeFiles\CLion_Test.elf.dir\
+  TARGET_PDB = CLion_Test.elf.pdb
 
-build CMakeFiles/CLion_Test.elf.dir/Drivers/CMSIS/system_gd32f4xx.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/XiaoMiAIot_Satan/Drivers/CMSIS/system_gd32f4xx.c || cmake_object_order_depends_target_CLion_Test.elf
+build CMakeFiles/CLion_Test.elf.dir/Drivers/CMSIS/system_gd32f4xx.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/NJU_Satan_Task3_2/Drivers/CMSIS/system_gd32f4xx.c || cmake_object_order_depends_target_CLion_Test.elf
   DEFINES = -DGD32F450 -DUSE_STDPERIPH_DRIVER
   DEP_FILE = CMakeFiles\CLion_Test.elf.dir\Drivers\CMSIS\system_gd32f4xx.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=soft -mcpu=cortex-m4 -mthumb -mthumb-interwork -specs=nosys.specs -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -ID:/Xiaomi/XiaoMiAIot_Satan/Core/Inc -ID:/Xiaomi/XiaoMiAIot_Satan/Drivers/CMSIS -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/LED -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/delay -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/USART -ID:/Xiaomi/XiaoMiAIot_Satan/UserApp
+  INCLUDES = -ID:/Xiaomi/NJU_Satan_Task3_2/Core/Inc -ID:/Xiaomi/NJU_Satan_Task3_2/Drivers/CMSIS -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/LED -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/delay -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/USART -ID:/Xiaomi/NJU_Satan_Task3_2/UserApp
   OBJECT_DIR = CMakeFiles\CLion_Test.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\CLion_Test.elf.dir\Drivers\CMSIS
+  TARGET_COMPILE_PDB = CMakeFiles\CLion_Test.elf.dir\
+  TARGET_PDB = CLion_Test.elf.pdb
 
-build CMakeFiles/CLion_Test.elf.dir/MyLib/LED/led.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/XiaoMiAIot_Satan/MyLib/LED/led.c || cmake_object_order_depends_target_CLion_Test.elf
+build CMakeFiles/CLion_Test.elf.dir/MyLib/LED/led.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/NJU_Satan_Task3_2/MyLib/LED/led.c || cmake_object_order_depends_target_CLion_Test.elf
   DEFINES = -DGD32F450 -DUSE_STDPERIPH_DRIVER
   DEP_FILE = CMakeFiles\CLion_Test.elf.dir\MyLib\LED\led.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=soft -mcpu=cortex-m4 -mthumb -mthumb-interwork -specs=nosys.specs -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -ID:/Xiaomi/XiaoMiAIot_Satan/Core/Inc -ID:/Xiaomi/XiaoMiAIot_Satan/Drivers/CMSIS -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/LED -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/delay -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/USART -ID:/Xiaomi/XiaoMiAIot_Satan/UserApp
+  INCLUDES = -ID:/Xiaomi/NJU_Satan_Task3_2/Core/Inc -ID:/Xiaomi/NJU_Satan_Task3_2/Drivers/CMSIS -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/LED -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/delay -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/USART -ID:/Xiaomi/NJU_Satan_Task3_2/UserApp
   OBJECT_DIR = CMakeFiles\CLion_Test.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\CLion_Test.elf.dir\MyLib\LED
+  TARGET_COMPILE_PDB = CMakeFiles\CLion_Test.elf.dir\
+  TARGET_PDB = CLion_Test.elf.pdb
 
-build CMakeFiles/CLion_Test.elf.dir/MyLib/USART/usart.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/XiaoMiAIot_Satan/MyLib/USART/usart.c || cmake_object_order_depends_target_CLion_Test.elf
+build CMakeFiles/CLion_Test.elf.dir/MyLib/USART/usart.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/NJU_Satan_Task3_2/MyLib/USART/usart.c || cmake_object_order_depends_target_CLion_Test.elf
   DEFINES = -DGD32F450 -DUSE_STDPERIPH_DRIVER
   DEP_FILE = CMakeFiles\CLion_Test.elf.dir\MyLib\USART\usart.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=soft -mcpu=cortex-m4 -mthumb -mthumb-interwork -specs=nosys.specs -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -ID:/Xiaomi/XiaoMiAIot_Satan/Core/Inc -ID:/Xiaomi/XiaoMiAIot_Satan/Drivers/CMSIS -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/LED -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/delay -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/USART -ID:/Xiaomi/XiaoMiAIot_Satan/UserApp
+  INCLUDES = -ID:/Xiaomi/NJU_Satan_Task3_2/Core/Inc -ID:/Xiaomi/NJU_Satan_Task3_2/Drivers/CMSIS -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/LED -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/delay -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/USART -ID:/Xiaomi/NJU_Satan_Task3_2/UserApp
   OBJECT_DIR = CMakeFiles\CLion_Test.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\CLion_Test.elf.dir\MyLib\USART
+  TARGET_COMPILE_PDB = CMakeFiles\CLion_Test.elf.dir\
+  TARGET_PDB = CLion_Test.elf.pdb
 
-build CMakeFiles/CLion_Test.elf.dir/MyLib/delay/delay.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/XiaoMiAIot_Satan/MyLib/delay/delay.c || cmake_object_order_depends_target_CLion_Test.elf
+build CMakeFiles/CLion_Test.elf.dir/MyLib/delay/delay.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/NJU_Satan_Task3_2/MyLib/delay/delay.c || cmake_object_order_depends_target_CLion_Test.elf
   DEFINES = -DGD32F450 -DUSE_STDPERIPH_DRIVER
   DEP_FILE = CMakeFiles\CLion_Test.elf.dir\MyLib\delay\delay.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=soft -mcpu=cortex-m4 -mthumb -mthumb-interwork -specs=nosys.specs -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -ID:/Xiaomi/XiaoMiAIot_Satan/Core/Inc -ID:/Xiaomi/XiaoMiAIot_Satan/Drivers/CMSIS -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/LED -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/delay -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/USART -ID:/Xiaomi/XiaoMiAIot_Satan/UserApp
+  INCLUDES = -ID:/Xiaomi/NJU_Satan_Task3_2/Core/Inc -ID:/Xiaomi/NJU_Satan_Task3_2/Drivers/CMSIS -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/LED -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/delay -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/USART -ID:/Xiaomi/NJU_Satan_Task3_2/UserApp
   OBJECT_DIR = CMakeFiles\CLion_Test.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\CLion_Test.elf.dir\MyLib\delay
+  TARGET_COMPILE_PDB = CMakeFiles\CLion_Test.elf.dir\
+  TARGET_PDB = CLion_Test.elf.pdb
 
-build CMakeFiles/CLion_Test.elf.dir/UserApp/src/gd32f4xx_it.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/XiaoMiAIot_Satan/UserApp/src/gd32f4xx_it.c || cmake_object_order_depends_target_CLion_Test.elf
+build CMakeFiles/CLion_Test.elf.dir/UserApp/src/WM8978.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/NJU_Satan_Task3_2/UserApp/src/WM8978.c || cmake_object_order_depends_target_CLion_Test.elf
+  DEFINES = -DGD32F450 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\CLion_Test.elf.dir\UserApp\src\WM8978.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -mfloat-abi=soft -mcpu=cortex-m4 -mthumb -mthumb-interwork -specs=nosys.specs -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
+  INCLUDES = -ID:/Xiaomi/NJU_Satan_Task3_2/Core/Inc -ID:/Xiaomi/NJU_Satan_Task3_2/Drivers/CMSIS -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/LED -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/delay -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/USART -ID:/Xiaomi/NJU_Satan_Task3_2/UserApp
+  OBJECT_DIR = CMakeFiles\CLion_Test.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\CLion_Test.elf.dir\UserApp\src
+  TARGET_COMPILE_PDB = CMakeFiles\CLion_Test.elf.dir\
+  TARGET_PDB = CLion_Test.elf.pdb
+
+build CMakeFiles/CLion_Test.elf.dir/UserApp/src/curtain_E3.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/NJU_Satan_Task3_2/UserApp/src/curtain_E3.c || cmake_object_order_depends_target_CLion_Test.elf
+  DEFINES = -DGD32F450 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\CLion_Test.elf.dir\UserApp\src\curtain_E3.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -mfloat-abi=soft -mcpu=cortex-m4 -mthumb -mthumb-interwork -specs=nosys.specs -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
+  INCLUDES = -ID:/Xiaomi/NJU_Satan_Task3_2/Core/Inc -ID:/Xiaomi/NJU_Satan_Task3_2/Drivers/CMSIS -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/LED -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/delay -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/USART -ID:/Xiaomi/NJU_Satan_Task3_2/UserApp
+  OBJECT_DIR = CMakeFiles\CLion_Test.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\CLion_Test.elf.dir\UserApp\src
+  TARGET_COMPILE_PDB = CMakeFiles\CLion_Test.elf.dir\
+  TARGET_PDB = CLion_Test.elf.pdb
+
+build CMakeFiles/CLion_Test.elf.dir/UserApp/src/display_E1.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/NJU_Satan_Task3_2/UserApp/src/display_E1.c || cmake_object_order_depends_target_CLion_Test.elf
+  DEFINES = -DGD32F450 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\CLion_Test.elf.dir\UserApp\src\display_E1.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -mfloat-abi=soft -mcpu=cortex-m4 -mthumb -mthumb-interwork -specs=nosys.specs -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
+  INCLUDES = -ID:/Xiaomi/NJU_Satan_Task3_2/Core/Inc -ID:/Xiaomi/NJU_Satan_Task3_2/Drivers/CMSIS -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/LED -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/delay -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/USART -ID:/Xiaomi/NJU_Satan_Task3_2/UserApp
+  OBJECT_DIR = CMakeFiles\CLion_Test.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\CLion_Test.elf.dir\UserApp\src
+  TARGET_COMPILE_PDB = CMakeFiles\CLion_Test.elf.dir\
+  TARGET_PDB = CLion_Test.elf.pdb
+
+build CMakeFiles/CLion_Test.elf.dir/UserApp/src/distance_S6.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/NJU_Satan_Task3_2/UserApp/src/distance_S6.c || cmake_object_order_depends_target_CLion_Test.elf
+  DEFINES = -DGD32F450 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\CLion_Test.elf.dir\UserApp\src\distance_S6.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -mfloat-abi=soft -mcpu=cortex-m4 -mthumb -mthumb-interwork -specs=nosys.specs -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
+  INCLUDES = -ID:/Xiaomi/NJU_Satan_Task3_2/Core/Inc -ID:/Xiaomi/NJU_Satan_Task3_2/Drivers/CMSIS -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/LED -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/delay -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/USART -ID:/Xiaomi/NJU_Satan_Task3_2/UserApp
+  OBJECT_DIR = CMakeFiles\CLion_Test.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\CLion_Test.elf.dir\UserApp\src
+  TARGET_COMPILE_PDB = CMakeFiles\CLion_Test.elf.dir\
+  TARGET_PDB = CLion_Test.elf.pdb
+
+build CMakeFiles/CLion_Test.elf.dir/UserApp/src/gd32f4xx_it.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/NJU_Satan_Task3_2/UserApp/src/gd32f4xx_it.c || cmake_object_order_depends_target_CLion_Test.elf
   DEFINES = -DGD32F450 -DUSE_STDPERIPH_DRIVER
   DEP_FILE = CMakeFiles\CLion_Test.elf.dir\UserApp\src\gd32f4xx_it.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=soft -mcpu=cortex-m4 -mthumb -mthumb-interwork -specs=nosys.specs -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -ID:/Xiaomi/XiaoMiAIot_Satan/Core/Inc -ID:/Xiaomi/XiaoMiAIot_Satan/Drivers/CMSIS -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/LED -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/delay -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/USART -ID:/Xiaomi/XiaoMiAIot_Satan/UserApp
+  INCLUDES = -ID:/Xiaomi/NJU_Satan_Task3_2/Core/Inc -ID:/Xiaomi/NJU_Satan_Task3_2/Drivers/CMSIS -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/LED -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/delay -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/USART -ID:/Xiaomi/NJU_Satan_Task3_2/UserApp
   OBJECT_DIR = CMakeFiles\CLion_Test.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\CLion_Test.elf.dir\UserApp\src
+  TARGET_COMPILE_PDB = CMakeFiles\CLion_Test.elf.dir\
+  TARGET_PDB = CLion_Test.elf.pdb
 
-build CMakeFiles/CLion_Test.elf.dir/UserApp/src/i2c.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/XiaoMiAIot_Satan/UserApp/src/i2c.c || cmake_object_order_depends_target_CLion_Test.elf
+build CMakeFiles/CLion_Test.elf.dir/UserApp/src/i2c.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/NJU_Satan_Task3_2/UserApp/src/i2c.c || cmake_object_order_depends_target_CLion_Test.elf
   DEFINES = -DGD32F450 -DUSE_STDPERIPH_DRIVER
   DEP_FILE = CMakeFiles\CLion_Test.elf.dir\UserApp\src\i2c.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=soft -mcpu=cortex-m4 -mthumb -mthumb-interwork -specs=nosys.specs -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -ID:/Xiaomi/XiaoMiAIot_Satan/Core/Inc -ID:/Xiaomi/XiaoMiAIot_Satan/Drivers/CMSIS -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/LED -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/delay -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/USART -ID:/Xiaomi/XiaoMiAIot_Satan/UserApp
+  INCLUDES = -ID:/Xiaomi/NJU_Satan_Task3_2/Core/Inc -ID:/Xiaomi/NJU_Satan_Task3_2/Drivers/CMSIS -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/LED -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/delay -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/USART -ID:/Xiaomi/NJU_Satan_Task3_2/UserApp
   OBJECT_DIR = CMakeFiles\CLion_Test.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\CLion_Test.elf.dir\UserApp\src
+  TARGET_COMPILE_PDB = CMakeFiles\CLion_Test.elf.dir\
+  TARGET_PDB = CLion_Test.elf.pdb
 
-build CMakeFiles/CLion_Test.elf.dir/UserApp/src/main.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/XiaoMiAIot_Satan/UserApp/src/main.c || cmake_object_order_depends_target_CLion_Test.elf
+build CMakeFiles/CLion_Test.elf.dir/UserApp/src/key_S1.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/NJU_Satan_Task3_2/UserApp/src/key_S1.c || cmake_object_order_depends_target_CLion_Test.elf
+  DEFINES = -DGD32F450 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\CLion_Test.elf.dir\UserApp\src\key_S1.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -mfloat-abi=soft -mcpu=cortex-m4 -mthumb -mthumb-interwork -specs=nosys.specs -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
+  INCLUDES = -ID:/Xiaomi/NJU_Satan_Task3_2/Core/Inc -ID:/Xiaomi/NJU_Satan_Task3_2/Drivers/CMSIS -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/LED -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/delay -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/USART -ID:/Xiaomi/NJU_Satan_Task3_2/UserApp
+  OBJECT_DIR = CMakeFiles\CLion_Test.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\CLion_Test.elf.dir\UserApp\src
+  TARGET_COMPILE_PDB = CMakeFiles\CLion_Test.elf.dir\
+  TARGET_PDB = CLion_Test.elf.pdb
+
+build CMakeFiles/CLion_Test.elf.dir/UserApp/src/led_E1.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/NJU_Satan_Task3_2/UserApp/src/led_E1.c || cmake_object_order_depends_target_CLion_Test.elf
+  DEFINES = -DGD32F450 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\CLion_Test.elf.dir\UserApp\src\led_E1.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -mfloat-abi=soft -mcpu=cortex-m4 -mthumb -mthumb-interwork -specs=nosys.specs -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
+  INCLUDES = -ID:/Xiaomi/NJU_Satan_Task3_2/Core/Inc -ID:/Xiaomi/NJU_Satan_Task3_2/Drivers/CMSIS -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/LED -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/delay -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/USART -ID:/Xiaomi/NJU_Satan_Task3_2/UserApp
+  OBJECT_DIR = CMakeFiles\CLion_Test.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\CLion_Test.elf.dir\UserApp\src
+  TARGET_COMPILE_PDB = CMakeFiles\CLion_Test.elf.dir\
+  TARGET_PDB = CLion_Test.elf.pdb
+
+build CMakeFiles/CLion_Test.elf.dir/UserApp/src/light_S2.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/NJU_Satan_Task3_2/UserApp/src/light_S2.c || cmake_object_order_depends_target_CLion_Test.elf
+  DEFINES = -DGD32F450 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\CLion_Test.elf.dir\UserApp\src\light_S2.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -mfloat-abi=soft -mcpu=cortex-m4 -mthumb -mthumb-interwork -specs=nosys.specs -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
+  INCLUDES = -ID:/Xiaomi/NJU_Satan_Task3_2/Core/Inc -ID:/Xiaomi/NJU_Satan_Task3_2/Drivers/CMSIS -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/LED -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/delay -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/USART -ID:/Xiaomi/NJU_Satan_Task3_2/UserApp
+  OBJECT_DIR = CMakeFiles\CLion_Test.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\CLion_Test.elf.dir\UserApp\src
+  TARGET_COMPILE_PDB = CMakeFiles\CLion_Test.elf.dir\
+  TARGET_PDB = CLion_Test.elf.pdb
+
+build CMakeFiles/CLion_Test.elf.dir/UserApp/src/main.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/NJU_Satan_Task3_2/UserApp/src/main.c || cmake_object_order_depends_target_CLion_Test.elf
   DEFINES = -DGD32F450 -DUSE_STDPERIPH_DRIVER
   DEP_FILE = CMakeFiles\CLion_Test.elf.dir\UserApp\src\main.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=soft -mcpu=cortex-m4 -mthumb -mthumb-interwork -specs=nosys.specs -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -ID:/Xiaomi/XiaoMiAIot_Satan/Core/Inc -ID:/Xiaomi/XiaoMiAIot_Satan/Drivers/CMSIS -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/LED -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/delay -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/USART -ID:/Xiaomi/XiaoMiAIot_Satan/UserApp
+  INCLUDES = -ID:/Xiaomi/NJU_Satan_Task3_2/Core/Inc -ID:/Xiaomi/NJU_Satan_Task3_2/Drivers/CMSIS -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/LED -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/delay -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/USART -ID:/Xiaomi/NJU_Satan_Task3_2/UserApp
   OBJECT_DIR = CMakeFiles\CLion_Test.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\CLion_Test.elf.dir\UserApp\src
+  TARGET_COMPILE_PDB = CMakeFiles\CLion_Test.elf.dir\
+  TARGET_PDB = CLion_Test.elf.pdb
 
-build CMakeFiles/CLion_Test.elf.dir/UserApp/src/systick.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/XiaoMiAIot_Satan/UserApp/src/systick.c || cmake_object_order_depends_target_CLion_Test.elf
+build CMakeFiles/CLion_Test.elf.dir/UserApp/src/systick.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/NJU_Satan_Task3_2/UserApp/src/systick.c || cmake_object_order_depends_target_CLion_Test.elf
   DEFINES = -DGD32F450 -DUSE_STDPERIPH_DRIVER
   DEP_FILE = CMakeFiles\CLion_Test.elf.dir\UserApp\src\systick.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=soft -mcpu=cortex-m4 -mthumb -mthumb-interwork -specs=nosys.specs -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -ID:/Xiaomi/XiaoMiAIot_Satan/Core/Inc -ID:/Xiaomi/XiaoMiAIot_Satan/Drivers/CMSIS -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/LED -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/delay -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/USART -ID:/Xiaomi/XiaoMiAIot_Satan/UserApp
+  INCLUDES = -ID:/Xiaomi/NJU_Satan_Task3_2/Core/Inc -ID:/Xiaomi/NJU_Satan_Task3_2/Drivers/CMSIS -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/LED -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/delay -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/USART -ID:/Xiaomi/NJU_Satan_Task3_2/UserApp
   OBJECT_DIR = CMakeFiles\CLion_Test.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\CLion_Test.elf.dir\UserApp\src
+  TARGET_COMPILE_PDB = CMakeFiles\CLion_Test.elf.dir\
+  TARGET_PDB = CLion_Test.elf.pdb
 
-build CMakeFiles/CLion_Test.elf.dir/UserApp/src/tools.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/XiaoMiAIot_Satan/UserApp/src/tools.c || cmake_object_order_depends_target_CLion_Test.elf
+build CMakeFiles/CLion_Test.elf.dir/UserApp/src/temper_S2.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/NJU_Satan_Task3_2/UserApp/src/temper_S2.c || cmake_object_order_depends_target_CLion_Test.elf
+  DEFINES = -DGD32F450 -DUSE_STDPERIPH_DRIVER
+  DEP_FILE = CMakeFiles\CLion_Test.elf.dir\UserApp\src\temper_S2.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -mfloat-abi=soft -mcpu=cortex-m4 -mthumb -mthumb-interwork -specs=nosys.specs -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
+  INCLUDES = -ID:/Xiaomi/NJU_Satan_Task3_2/Core/Inc -ID:/Xiaomi/NJU_Satan_Task3_2/Drivers/CMSIS -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/LED -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/delay -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/USART -ID:/Xiaomi/NJU_Satan_Task3_2/UserApp
+  OBJECT_DIR = CMakeFiles\CLion_Test.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\CLion_Test.elf.dir\UserApp\src
+  TARGET_COMPILE_PDB = CMakeFiles\CLion_Test.elf.dir\
+  TARGET_PDB = CLion_Test.elf.pdb
+
+build CMakeFiles/CLion_Test.elf.dir/UserApp/src/tools.c.obj: C_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/NJU_Satan_Task3_2/UserApp/src/tools.c || cmake_object_order_depends_target_CLion_Test.elf
   DEFINES = -DGD32F450 -DUSE_STDPERIPH_DRIVER
   DEP_FILE = CMakeFiles\CLion_Test.elf.dir\UserApp\src\tools.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -mfloat-abi=soft -mcpu=cortex-m4 -mthumb -mthumb-interwork -specs=nosys.specs -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
-  INCLUDES = -ID:/Xiaomi/XiaoMiAIot_Satan/Core/Inc -ID:/Xiaomi/XiaoMiAIot_Satan/Drivers/CMSIS -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/LED -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/delay -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/USART -ID:/Xiaomi/XiaoMiAIot_Satan/UserApp
+  INCLUDES = -ID:/Xiaomi/NJU_Satan_Task3_2/Core/Inc -ID:/Xiaomi/NJU_Satan_Task3_2/Drivers/CMSIS -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/LED -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/delay -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/USART -ID:/Xiaomi/NJU_Satan_Task3_2/UserApp
   OBJECT_DIR = CMakeFiles\CLion_Test.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\CLion_Test.elf.dir\UserApp\src
+  TARGET_COMPILE_PDB = CMakeFiles\CLion_Test.elf.dir\
+  TARGET_PDB = CLion_Test.elf.pdb
 
-build CMakeFiles/CLion_Test.elf.dir/startup/startup_gd32f450.S.obj: ASM_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/XiaoMiAIot_Satan/startup/startup_gd32f450.S || cmake_object_order_depends_target_CLion_Test.elf
+build CMakeFiles/CLion_Test.elf.dir/startup/startup_gd32f450.S.obj: ASM_COMPILER__CLion_Test.2eelf_Debug D$:/Xiaomi/NJU_Satan_Task3_2/startup/startup_gd32f450.S || cmake_object_order_depends_target_CLion_Test.elf
   DEFINES = -DGD32F450 -DUSE_STDPERIPH_DRIVER
   DEP_FILE = CMakeFiles\CLion_Test.elf.dir\startup\startup_gd32f450.S.obj.d
   FLAGS = -g -mfloat-abi=soft -mcpu=cortex-m4 -mthumb -mthumb-interwork -specs=nosys.specs -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
-  INCLUDES = -ID:/Xiaomi/XiaoMiAIot_Satan/Core/Inc -ID:/Xiaomi/XiaoMiAIot_Satan/Drivers/CMSIS -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/LED -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/delay -ID:/Xiaomi/XiaoMiAIot_Satan/MyLib/USART -ID:/Xiaomi/XiaoMiAIot_Satan/UserApp
+  INCLUDES = -ID:/Xiaomi/NJU_Satan_Task3_2/Core/Inc -ID:/Xiaomi/NJU_Satan_Task3_2/Drivers/CMSIS -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/LED -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/delay -ID:/Xiaomi/NJU_Satan_Task3_2/MyLib/USART -ID:/Xiaomi/NJU_Satan_Task3_2/UserApp
   OBJECT_DIR = CMakeFiles\CLion_Test.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\CLion_Test.elf.dir\startup
+  TARGET_COMPILE_PDB = CMakeFiles\CLion_Test.elf.dir\
+  TARGET_PDB = CLion_Test.elf.pdb
 
 
 # =============================================================================
@@ -369,21 +527,22 @@ build CMakeFiles/CLion_Test.elf.dir/startup/startup_gd32f450.S.obj: ASM_COMPILER
 #############################################
 # Link the executable CLion_Test.elf
 
-build CLion_Test.elf: C_EXECUTABLE_LINKER__CLion_Test.2eelf_Debug CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_adc.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_can.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_crc.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_ctc.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_dac.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_dbg.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_dci.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_dma.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_enet.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_exmc.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_exti.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_fmc.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_fwdgt.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_gpio.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_i2c.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_ipa.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_iref.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_misc.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_pmu.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_rcu.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_rtc.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_sdio.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_spi.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_syscfg.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_timer.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_tli.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_trng.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_usart.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_wwdgt.c.obj CMakeFiles/CLion_Test.elf.dir/Drivers/CMSIS/system_gd32f4xx.c.obj CMakeFiles/CLion_Test.elf.dir/MyLib/LED/led.c.obj CMakeFiles/CLion_Test.elf.dir/MyLib/USART/usart.c.obj CMakeFiles/CLion_Test.elf.dir/MyLib/delay/delay.c.obj CMakeFiles/CLion_Test.elf.dir/UserApp/src/gd32f4xx_it.c.obj CMakeFiles/CLion_Test.elf.dir/UserApp/src/i2c.c.obj CMakeFiles/CLion_Test.elf.dir/UserApp/src/main.c.obj CMakeFiles/CLion_Test.elf.dir/UserApp/src/systick.c.obj CMakeFiles/CLion_Test.elf.dir/UserApp/src/tools.c.obj CMakeFiles/CLion_Test.elf.dir/startup/startup_gd32f450.S.obj
+build CLion_Test.elf: C_EXECUTABLE_LINKER__CLion_Test.2eelf_Debug CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_adc.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_can.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_crc.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_ctc.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_dac.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_dbg.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_dci.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_dma.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_enet.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_exmc.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_exti.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_fmc.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_fwdgt.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_gpio.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_i2c.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_ipa.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_iref.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_misc.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_pmu.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_rcu.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_rtc.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_sdio.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_spi.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_syscfg.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_timer.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_tli.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_trng.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_usart.c.obj CMakeFiles/CLion_Test.elf.dir/Core/Src/gd32f4xx_wwdgt.c.obj CMakeFiles/CLion_Test.elf.dir/Drivers/CMSIS/system_gd32f4xx.c.obj CMakeFiles/CLion_Test.elf.dir/MyLib/LED/led.c.obj CMakeFiles/CLion_Test.elf.dir/MyLib/USART/usart.c.obj CMakeFiles/CLion_Test.elf.dir/MyLib/delay/delay.c.obj CMakeFiles/CLion_Test.elf.dir/UserApp/src/WM8978.c.obj CMakeFiles/CLion_Test.elf.dir/UserApp/src/curtain_E3.c.obj CMakeFiles/CLion_Test.elf.dir/UserApp/src/display_E1.c.obj CMakeFiles/CLion_Test.elf.dir/UserApp/src/distance_S6.c.obj CMakeFiles/CLion_Test.elf.dir/UserApp/src/gd32f4xx_it.c.obj CMakeFiles/CLion_Test.elf.dir/UserApp/src/i2c.c.obj CMakeFiles/CLion_Test.elf.dir/UserApp/src/key_S1.c.obj CMakeFiles/CLion_Test.elf.dir/UserApp/src/led_E1.c.obj CMakeFiles/CLion_Test.elf.dir/UserApp/src/light_S2.c.obj CMakeFiles/CLion_Test.elf.dir/UserApp/src/main.c.obj CMakeFiles/CLion_Test.elf.dir/UserApp/src/systick.c.obj CMakeFiles/CLion_Test.elf.dir/UserApp/src/temper_S2.c.obj CMakeFiles/CLion_Test.elf.dir/UserApp/src/tools.c.obj CMakeFiles/CLion_Test.elf.dir/startup/startup_gd32f450.S.obj
   FLAGS = -g
-  LINK_FLAGS = -Wl,-gc-sections,--print-memory-usage,-Map=D:/Xiaomi/XiaoMiAIot_Satan/cmake-build-debug/CLion_Test.map -mcpu=cortex-m4 -mthumb -mthumb-interwork --specs=nosys.specs -T D:/Xiaomi/XiaoMiAIot_Satan/gd32f450z_flash.ld
+  LINK_FLAGS = -Wl,-gc-sections,--print-memory-usage,-Map=D:/Xiaomi/NJU_Satan_Task3_2/cmake-build-debug/CLion_Test.map -mcpu=cortex-m4 -mthumb -mthumb-interwork --specs=nosys.specs -T D:/Xiaomi/NJU_Satan_Task3_2/gd32f450z_flash.ld
   OBJECT_DIR = CMakeFiles\CLion_Test.elf.dir
-  POST_BUILD = cmd.exe /C "cd /D D:\Xiaomi\XiaoMiAIot_Satan\cmake-build-debug && arm-none-eabi-objcopy -Oihex D:/Xiaomi/XiaoMiAIot_Satan/cmake-build-debug/CLion_Test.elf D:/Xiaomi/XiaoMiAIot_Satan/cmake-build-debug/CLion_Test.hex && arm-none-eabi-objcopy -Obinary D:/Xiaomi/XiaoMiAIot_Satan/cmake-build-debug/CLion_Test.elf D:/Xiaomi/XiaoMiAIot_Satan/cmake-build-debug/CLion_Test.bin"
+  POST_BUILD = cmd.exe /C "cd /D D:\Xiaomi\NJU_Satan_Task3_2\cmake-build-debug && arm-none-eabi-objcopy -Oihex D:/Xiaomi/NJU_Satan_Task3_2/cmake-build-debug/CLion_Test.elf D:/Xiaomi/NJU_Satan_Task3_2/cmake-build-debug/CLion_Test.hex && arm-none-eabi-objcopy -Obinary D:/Xiaomi/NJU_Satan_Task3_2/cmake-build-debug/CLion_Test.elf D:/Xiaomi/NJU_Satan_Task3_2/cmake-build-debug/CLion_Test.bin"
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\CLion_Test.elf.dir\
   TARGET_FILE = CLion_Test.elf
-  TARGET_PDB = CLion_Test.elf.dbg
+  TARGET_PDB = CLion_Test.elf.pdb
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\Xiaomi\XiaoMiAIot_Satan\cmake-build-debug && C:\Users\18466\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8836.42\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D D:\Xiaomi\NJU_Satan_Task3_2\cmake-build-debug && C:\Users\18466\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8836.42\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -394,7 +553,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\Xiaomi\XiaoMiAIot_Satan\cmake-build-debug && C:\Users\18466\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8836.42\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -SD:\Xiaomi\XiaoMiAIot_Satan -BD:\Xiaomi\XiaoMiAIot_Satan\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D D:\Xiaomi\NJU_Satan_Task3_2\cmake-build-debug && C:\Users\18466\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8836.42\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -SD:\Xiaomi\NJU_Satan_Task3_2 -BD:\Xiaomi\NJU_Satan_Task3_2\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -410,7 +569,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: D:/Xiaomi/XiaoMiAIot_Satan/cmake-build-debug
+# Folder: D:/Xiaomi/NJU_Satan_Task3_2/cmake-build-debug
 
 build all: phony CLion_Test.elf
 
@@ -421,14 +580,14 @@ build all: phony CLion_Test.elf
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeASMInformation.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCInformation.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCXXInformation.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeGenericSystem.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-ASM.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-C.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeASMCompiler.cmake CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake D$:/Xiaomi/XiaoMiAIot_Satan/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeASMCompiler.cmake.in C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeASMInformation.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCCompiler.cmake.in C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCCompilerABI.c C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCInformation.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCXXCompiler.cmake.in C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCXXInformation.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCompilerIdDetection.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeDetermineASMCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeDetermineCCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeDetermineCXXCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeDetermineCompileFeatures.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeDetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeDetermineCompilerABI.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeDetermineCompilerId.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeDetermineSystem.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeFindBinUtils.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeGenericSystem.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeParseLibraryArchitecture.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystem.cmake.in C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeTestASMCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeTestCCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeTestCXXCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeTestCompilerCommon.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-ASM.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-C.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Internal/FeatureTesting.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeASMCompiler.cmake CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake D$:/Xiaomi/NJU_Satan_Task3_2/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeASMInformation.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCInformation.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCXXInformation.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeGenericSystem.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-ASM.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-C.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeASMCompiler.cmake CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake D$:/Xiaomi/XiaoMiAIot_Satan/CMakeLists.txt: phony
+build C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeASMCompiler.cmake.in C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeASMInformation.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCCompiler.cmake.in C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCCompilerABI.c C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCInformation.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCXXCompiler.cmake.in C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCXXInformation.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeCompilerIdDetection.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeDetermineASMCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeDetermineCCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeDetermineCXXCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeDetermineCompileFeatures.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeDetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeDetermineCompilerABI.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeDetermineCompilerId.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeDetermineSystem.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeFindBinUtils.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeGenericSystem.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeParseLibraryArchitecture.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystem.cmake.in C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeTestASMCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeTestCCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeTestCXXCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeTestCompilerCommon.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-ASM.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-C.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Internal/FeatureTesting.cmake C$:/Users/18466/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeASMCompiler.cmake CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake D$:/Xiaomi/NJU_Satan_Task3_2/CMakeLists.txt: phony
 
 
 #############################################
