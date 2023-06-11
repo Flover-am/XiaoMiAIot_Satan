@@ -158,27 +158,27 @@
 			[
 				{
 					"backtrace" : 10,
-					"path" : "D:/Xiaomi/XiaoMiAIot_Satan/Core/Inc"
+					"path" : "D:/Xiaomi/NJU_Satan_Task3_3/Core/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "D:/Xiaomi/XiaoMiAIot_Satan/Drivers/CMSIS"
+					"path" : "D:/Xiaomi/NJU_Satan_Task3_3/Drivers/CMSIS"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "D:/Xiaomi/XiaoMiAIot_Satan/MyLib/LED"
+					"path" : "D:/Xiaomi/NJU_Satan_Task3_3/MyLib/LED"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "D:/Xiaomi/XiaoMiAIot_Satan/MyLib/delay"
+					"path" : "D:/Xiaomi/NJU_Satan_Task3_3/MyLib/delay"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "D:/Xiaomi/XiaoMiAIot_Satan/MyLib/USART"
+					"path" : "D:/Xiaomi/NJU_Satan_Task3_3/MyLib/USART"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "D:/Xiaomi/XiaoMiAIot_Satan/UserApp"
+					"path" : "D:/Xiaomi/NJU_Satan_Task3_3/UserApp"
 				}
 			],
 			"language" : "C",
@@ -225,11 +225,19 @@
 				30,
 				32,
 				34,
-				42,
-				43,
-				44,
-				45,
-				46
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62
 			]
 		},
 		{
@@ -298,33 +306,33 @@
 			[
 				{
 					"backtrace" : 10,
-					"path" : "D:/Xiaomi/XiaoMiAIot_Satan/Core/Inc"
+					"path" : "D:/Xiaomi/NJU_Satan_Task3_3/Core/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "D:/Xiaomi/XiaoMiAIot_Satan/Drivers/CMSIS"
+					"path" : "D:/Xiaomi/NJU_Satan_Task3_3/Drivers/CMSIS"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "D:/Xiaomi/XiaoMiAIot_Satan/MyLib/LED"
+					"path" : "D:/Xiaomi/NJU_Satan_Task3_3/MyLib/LED"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "D:/Xiaomi/XiaoMiAIot_Satan/MyLib/delay"
+					"path" : "D:/Xiaomi/NJU_Satan_Task3_3/MyLib/delay"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "D:/Xiaomi/XiaoMiAIot_Satan/MyLib/USART"
+					"path" : "D:/Xiaomi/NJU_Satan_Task3_3/MyLib/USART"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "D:/Xiaomi/XiaoMiAIot_Satan/UserApp"
+					"path" : "D:/Xiaomi/NJU_Satan_Task3_3/UserApp"
 				}
 			],
 			"language" : "ASM",
 			"sourceIndexes" : 
 			[
-				47
+				63
 			]
 		}
 	],
@@ -343,7 +351,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=D:/Xiaomi/XiaoMiAIot_Satan/cmake-build-debug/CLion_Test.map",
+				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=D:/Xiaomi/NJU_Satan_Task3_3/cmake-build-debug/CLion_Test.map",
 				"role" : "flags"
 			},
 			{
@@ -373,7 +381,7 @@
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "D:/Xiaomi/XiaoMiAIot_Satan/gd32f450z_flash.ld",
+				"fragment" : "D:/Xiaomi/NJU_Satan_Task3_3/gd32f450z_flash.ld",
 				"role" : "flags"
 			}
 		],
@@ -425,11 +433,19 @@
 				30,
 				32,
 				34,
-				42,
-				43,
-				44,
-				45,
-				46
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62
 			]
 		},
 		{
@@ -444,15 +460,23 @@
 				38,
 				39,
 				40,
-				41
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49
 			]
 		},
 		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				47,
-				48
+				63,
+				64
 			]
 		}
 	],
@@ -673,6 +697,26 @@
 		},
 		{
 			"backtrace" : 1,
+			"path" : "UserApp/inc/WM8978.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "UserApp/inc/curtain_E3.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "UserApp/inc/display_E1.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "UserApp/inc/distance_S6.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
 			"path" : "UserApp/inc/gd32f4xx_it.h",
 			"sourceGroupIndex" : 1
 		},
@@ -688,6 +732,21 @@
 		},
 		{
 			"backtrace" : 1,
+			"path" : "UserApp/inc/key_S1.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "UserApp/inc/led_E1.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "UserApp/inc/light_S2.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
 			"path" : "UserApp/inc/main.h",
 			"sourceGroupIndex" : 1
 		},
@@ -698,8 +757,37 @@
 		},
 		{
 			"backtrace" : 1,
+			"path" : "UserApp/inc/temper_S2.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
 			"path" : "UserApp/inc/tools.h",
 			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "UserApp/src/WM8978.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "UserApp/src/curtain_E3.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "UserApp/src/display_E1.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "UserApp/src/distance_S6.c",
+			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
@@ -716,6 +804,24 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
+			"path" : "UserApp/src/key_S1.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "UserApp/src/led_E1.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "UserApp/src/light_S2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
 			"path" : "UserApp/src/main.c",
 			"sourceGroupIndex" : 0
 		},
@@ -723,6 +829,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "UserApp/src/systick.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "UserApp/src/temper_S2.c",
 			"sourceGroupIndex" : 0
 		},
 		{

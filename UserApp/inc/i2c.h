@@ -22,6 +22,7 @@
 
 #define I2C_OK                 0
 #define I2C_FAIL               1
+void i2c_detect();
 
 
 void i2c0_gpio_config(void);
@@ -34,8 +35,8 @@ void i2c_cmd_write(uint32_t i2c_periph, uint8_t i2c_addr, uint8_t cmd);
 void i2c_byte_write(uint32_t i2c_periph,uint8_t i2c_addr,uint8_t write_address,uint8_t buffer);
 void i2c_write(uint32_t i2c_periph,uint8_t i2c_addr,uint8_t write_address,uint8_t* p_buffer,  uint8_t number_of_byte);
 uint8_t i2c_read(uint32_t i2c_periph,uint8_t i2c_addr,uint8_t read_address,uint8_t* p_buffer,  uint16_t number_of_byte);
-
-
+uint8_t i2c_read_cmd(uint32_t i2c_periph, uint8_t i2c_addr, uint8_t MSB, uint8_t LSB, uint8_t *p_buffer,
+                     uint16_t number_of_byte, uint16_t ope_time);
 
 
 
