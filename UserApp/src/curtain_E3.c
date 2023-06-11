@@ -39,7 +39,7 @@ void curtain_E3_i2c_init() {
 }
 
 void open_curtain() {
-    i2c_byte_write(curtain_addr.periph, curtain_addr.addr, 0, 0);
+    i2c_byte_write(curtain_addr.periph, curtain_addr.addr, 0x03, 0);
     delay_1ms(200);
 }
 
